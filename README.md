@@ -1,59 +1,276 @@
-# tabbed-module-template
-**CHANGE LOG**
+<!DOCTYPE html>
+<html lang="en">
+<!--TABBED MODULE TEMPLATE-->
+<!--LAST EDITED 2/17/2017-->
 
-**4/26/17:**
+<head>
+<meta charset="utf-8">
+<title>Week 5 Instructional Materials</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	*Updated color of <a> tag to meet AA standards in 'colors.css'
+<!--Bootstrap CSS, FontAwesome CSS (http://fontawesome.io/icons/) tabbedmodule CSS-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<link href="css/slickQuiz.css" media="screen" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="css/tabbedmodule.css">
+<link rel="stylesheet" type="text/css" href="css/colors.css">
+<link rel="stylesheet" type="text/css" href="css/custom.css">
+<!--JQuery.min.js, Bootstrap.min.js, tabbedmodule.js, slickQuiz-config.js, etc.-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="js/tabbedmodule.js"></script>
+<script src="js/slickQuiz-config-1.js"></script>
+<script src="js/slickQuiz.js"></script>
+</head>
 
-**2/14/17: Valentines Day Update**
+<body id="top">
+<br>
+<div class="container" style="padding-bottom:50px; padding-top:20px">
 
-	*Created publisher_resources folder with Connect and WileyPlus template pages and associated images
-	
-	*Added animate.css - look it up and play with it, but don't go overboard
-	
-	*Attempted to fix bug where page doesn't return to top in Firefox on click of Next/Previous button
-	
-	*Added Proctor reminder alert to tabbed-module-2, simply delete if not needed
+<!--navigation tabs-->
+  <ul class="nav nav-tabs" id="mytabs">
+    <li class="active"><a data-toggle="tab" href="#overview">Overview</a></li>
+    <li><a data-toggle="tab" href="#activities">Activities</a></li>
 
-**12/19/16:**
+<!--begin dropdown lecture menu-->
+     <li class="dropdown">
+          <a href="#lecture" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Lecture <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+<!--Delete from 'begin dropdown lecture menu' to here to convert to normal tabs. -->
+<!--Add or delete lecture links as needed.-->
+<!--Ensure final lecture's 'next' button has the id "toreview".-->
+<!--Ensure the button from review back to lecture points to the right lecture using button ids (see tabbedmodule.css for reference)-->
+            <li><a data-toggle="tab" href="#lecture1">Lecture 1</a></li>
+            <li><a data-toggle="tab" href="#lecture2">Lecture 2</a></li>
+            <li><a data-toggle="tab" href="#lecture3">Lecture 3</a></li>
+      
+    	</ul></li>
+<!--end dropdown lecture menu-->        
+    <li><a data-toggle="tab" href="#review">Review</a></li>
+	</ul>
+<!--end navigation tabs-->
 
-	*Updated language in all slickQuiz-config files to be more standardized, easier to edit
+<!--begin page content-->
+<div class="tab-content" style="margin-top:15px">
 
-**12/7/16:**
+<!--BEGIN OVERVIEW-->
+<div id="overview" class="tab-pane fade in active">
+     <h1>Week 5: Monopolistic Competition/Oligopoly and Market Power</h1><br/>
+	 <h2>Understanding Market Structures and Consumer Behavior</h2><br/>
+     <p>Last week, we delved into the world of relatively non-existent market structures.  This week, we jump headlong into the two most prevalent market structures in modern economies, monopolistic competition and oligopolies.</p>
+	 <p>These two structures do have some similarities and at times can be very difficult to distinguish to between them.  It can be difficult not only because they are so prevalent, but also because one firm may one sell various brands of a product that make it appear that there are plenty of choices for the consumer, but in fact, we are just giving the same firm our money regardless of the product we purchase.</p>
+	 <p>And as we discussed, monopolies are not very consumer friendly.  This can be expanded further to anytime there is less competition, then consumers are disadvantaged compared to the businesses.  Because of this ability of large firms to exhibit market power, government has enacted various laws to counter the effect of monopoly power when industries start to consolidate into markets with a smaller number of large firms rather than a large number of smaller firms.</p>
+ <br>
+      <div class="panel panel-default">
+      <div class="panel-heading"><h3>List of Weekly Objectives</h3></div>
+      <div class="panel-body"><ul>
+      <li>Understand the characteristics of monopolistic competitive markets.</li>
+      <li>Describe the characteristics of an oligopolistic market.</li>
+      <li>Explain how industries become less competitive.</li>
+	  <li>Evaluate governmental intervention to limit monopoly power.</li>  
+	  <h3>Readings</h3>
+		<p> Greenlaw, S. A. & Shapiro, D. (2018). <i>Principles of microeconomics</i> (2nd edition).</p>
+        <a href="https://openstax.org/details/books/principles-microeconomics-2e">OpenStax. https://openstax.org/details/books/principles-microeconomics-2e</a>
+		<li>Chapters 10 & 11</li>
+   	 </ul>
+      </div>
+      </div>
+<div style="clear:both"></div>
+<button type="button" id="overviewnext"class="btn btn-primary pull-right" onclick="location.href="activities"';">Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></button>
+<div style="clear:both"></div>
+</div>
+<!--END OVERVIEW-->
 
-	*Updated FontAwesome to v.4.7.0 for increased awesome
+<!--BEGIN ACTIVITIES-->
+<div id="activities" class="tab-pane fade">
+      <h2>Activities</h2>
+      <h3 class="activities"><i class="fa fa-book" aria-hidden="true"></i> Learning Resources</h3>
+      <ul>
+      <li>Chapter 10</li>
+	  <li>Chapter 11</li>
+      </ul>
 
-	*Updated SlickQuiz feedback language after quiz in config files
+      <h3 class="activities"><i class="fa fa-check-square-o" aria-hidden="true"></i> Required Activities</h3>
+      <ul>
+      <li>Discussion 5</li>
+      <li>Exercise 3</li>
+      </ul>
+      <p>&nbsp;</p>
+      <div class="alert alert-info fade in">
+  <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+  <p class="text-center">If you have questions regarding any of these activities, make sure to post those questions in the <strong>Open Forum</strong>.</p>
+	 </div>
 
-	*Added panel for Weekly Objectives on Overview tab
+<div style="clear:both"></div>
+<button type="button" id="activitiesprev" class="btn btn-primary pull-left" onclick="location.href='#top'"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous</button>
+<button type="button" id="activitiesnext" class="btn btn-primary pull-right" onclick="location.href='#top'">Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></button>
+<div style="clear:both"></div>
+</div>
+<!--END ACTIVITIES-->
 
-	*Added section for Multimedia on Activities tab
+<!--LECTURE SECTIONS: IMPORTANT! DELETE THE TABS YOU DON'T USE OR THEY WILL PRINT JUNK CODE-->
+
+<!--BEGIN LECTURE 1-->
+<div id="lecture1" class="tab-pane fade">
+	  <h2>Monopolistic Competition</h2>
+      <p>There are three main characteristics of a monopolistically competitive market.  There are large amounts of buyers and sellers, there is relative ease of entry and exit into the market, and there are heterogenous products.  As you can see, the characteristics of the monopolistically competitive market and the perfectly competitive market are very similar.  The only major difference is that the products are heterogenous product rather than the homogenous product. </p>
+	  <p>Let’s look at an example.  The fast food industry is a very good example of a monopolistically competitive market.  There are many different places in most areas where one can go get a hamburger.  However, there is only one place to get a Big Mac.  There is only one place to go get a Whopper.  Thus the overall market is competitive, i.e. many places to get a burger, but monopolistic in that there is only one seller of any particular type of burger.</p>
+	  <p>Within the monopolistically competitive market, the way that firms distinguish themselves from their competitors is through product differentiation.  There are various ways that firms try to differentiate their products from their competitors.</p><br/>
+	  <li>Product attributes.  As mentioned with the Big Mac vs the Whopper.  McDonalds and Burger King offer a different style of burger to have consumers buy their products.</li>
+	  <li>Service.  Look at grocery stores.  Some stores bag your groceries when you are finished, while others require customers to bag their own groceries.</li>
+	  <li>Location.  Convenience stores are located throughout an area and at times, closer to residential areas than large grocery stores.</li>
+	  <li>Brand names and advertising.  Firms spend lots of money to create a brand name that consumers want to purchase based on advertising.</li><br/>
+	  <p>Based on these product attributes, monopolistically competitive firms do have some control over price.  If you want a Big Mac, you will pay what McDonalds charges.  However, since there are other places to get a burger, McDonalds does have some restrictions on what it can charge.</p>
+      <p>Because of this, firms in the monopolistically competitive earn can earn a very slight economic profit even in the long-run.  If firms are earning economic profit in the short-run, more firms will enter the market, that will create downward pressure on profits.  One way that firms try to maintain those economic profits is to continually advertise to keep customers coming back and profits rolling in.</p>
+	  <p>Unlike the perfectly competitive firm, monopolistically competitive firms are neither productively or allocatively efficient.</p><br/>
+	  <h3>Monopolistic Competition (MJM)</h3>
+	  <iframe width="560" height="315" src="https://www.youtube.com/embed/T3F1Vt3IyNc?si=Pl6tzeJFXW15Ruii" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div style="clear:both"></div>
+<button type="button" id="lecture1prev" class="btn btn-primary pull-left" onclick="location.href='#top'"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous</button>
+<button type="button" id="lecture1next" class="btn btn-primary pull-right" onclick="location.href='#top'">Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></button>
+<div style="clear:both"></div>
+</div>
+<!--END LECTURE 1-->
+
+<!--BEGIN LECTURE 2-->    
+<div id="lecture2" class="tab-pane fade">
+      <h2>Oligopoly</h2>
+      <p>The characteristics of the oligopoly market are as follows:</p><br/>
+	  <li>A few large supplier</li>
+	  <li>The product may be homogenous or heterogenous</li>
+	  <li>There are barriers to entry</li>
+ 	  <li>Firms have control over price, but there is mutual interdependence</li><br/>
+	  <p>Thus, as you can see, oligopolistic markets differ from monopolistically competitive markets by the fact there are fewer companies to purchase the products from and that those firms can offer the same type of product.  Further, due to the size of the firms, it is very difficult for new firms to enter the market.</p><br/>
+	  <p>There are three basic oligopoly models.  One is kinked-demand theory.  This theory is based on the fact that when oligopolies compete, price increases are not matched by competitors, but if a firm does lower price to attract more customers, its competitors will match price.  Another is cartels and collusion.  A cartel is a situation where firms from an illegal alliance to keep output low and prices high.  The most famous cartel is OPEC, which is made up of various oil producing countries.  The final basic model is the price leadership model.  This occurs when there is one large firm that sets the price for the rest of the market.</p>
+      <p>As one can imagine, based on these models, oligopolies are neither allocative or productively efficient.</p><br/>
+	  <h3>Oligopoly (MJM)</h3>
+	  <iframe width="560" height="315" src="https://www.youtube.com/embed/ElBF2D7IHAI?si=4fpqepR1LTsW1iCm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div style="clear:both"></div>
+<button type="button" id="lecture2prev" class="btn btn-primary pull-left" onclick="location.href='#top'"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous</button>
+<button type="button" id="lecture2next" class="btn btn-primary pull-right" onclick="location.href='#top'">Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></button>
+<div style="clear:both"></div>
+</div>
+<!--END LECTURE 2-->
+
+<!--BEGIN LECTURE 3-->
+<div id="lecture3" class="tab-pane fade">
+    <h2>Market Power</h2>
+	<p>As you can tell, consumers prefer the perfectly competitive or monopolistically competitive markets.  Firms, on the other hand, prefer the oligopolistic or monopoly structures.  This is because when there is good competition, we get more of the products at lower prices.  With less competition, we get fewer products and higher prices.</p>
+    <p>This is because firms in less competitive industries can have market power.  A monopolist has the ultimate market power.  In a perfectly competitive industry, no firm has any market power.</p>
+	<p>In most situations, market power doesn’t just exist.  So, how do markets go from competitive to less competitive?  The main way is by mergers.  There are three types of mergers, horizontal, vertical, and conglomerate.  The type of merger that hinders competition and can create market power is the horizontal merger.  A horizontal merger is a merger between firms in the same industry selling similar goods.  An example of a horizontal would be if McDonalds and Burger King would merge.</p><br/>
+    <p>In the late 1800s, many industries in the US were moving towards or had already turned into monopolies.  Seeing the societal harm to these large companies, anti-monopoly laws were enacted to break up monopolies and to prevent monopolies from forming.  The first, and most famous, act was the Sherman Antitrust Act of 1890.  Since that time, many other laws have been passed to try and limit monopolies.</p>
+    <p>In certain situations, some industries lead themselves to monopolistic behavior.  Those firms are called natural monopolies.  These occur when one firm can continually produce and sell more output at a lower average total cost then having two or more firms.  These firms are generally utility companies, such as electric companies.  To soften the negative impact of these monopolies, they are usually price regulated by a state regulatory board.</p><br/>
+<h3>Mergers (MJM)</h3>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/wlLdX0fs6hE?si=VrTqkQYbxk4LdUsc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div style="clear:both"></div>
+<button type="button" id="lecture3prev" class="btn btn-primary pull-left" onclick="location.href='#top'"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous</button>
+<button type="button" id="lecture3next" class="btn btn-primary pull-right" onclick="location.href='#top'">Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></button>
+<div style="clear:both"></div>
+</div>
+<!--END LECTURE 3-->
+
+<!--BEGIN REVIEW-->
+<!--IMPORTANT: questions and answers can be edited in the file "js/slickQuiz-config-1.js"-->
+
+<div id="review" class="tab-pane fade">
+      <h2>Knowledge Check</h2><br/>
+      <p>1. What distinguishes monopolistic competition from perfect competition?</p><br/>
+	  <p>2. Why is a monopolistically competitive firm not allocatively efficient?</p><br/>
+	  <p>3. What is the difference between a merger and an acquisition?</p><br/>
+	  <p>4. Why might governments regulate monopolies or prevent certain mergers?</p><br/>
+
+<div style="clear:both"></div>
+<!--ENSURE THIS BUTTON LINKS TO YOUR FINAL LECTURE PAGE-->
+<button type="button" id="lecture7prev" class="btn btn-primary pull-left" onclick="location.href='#top'"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous</button>
+<div style="clear:both"></div>
+</div>
+<!--END REVIEW-->  
+
+</div><!--DO NOT DELETE THIS TAG, IT CLOSES THE CONTAINER DIV!-->
+
+<!--FOOTER-->
+<div class="panel-footer navbar-fixed-bottom center-block text-center" style="width:100%; clear:both; background-color:#fafafa;">ECON 294: Microeconomics</div>
+</div>
+
+</body>
+
+</html>
 
 
-**9/20/16:**
-
-	*Updated colors.css to ensure accessibility of anchor text
 
 
-**9/2/16**
-
-	*Tabbed module template added to GitHub to manage updates
 
 
-**9/1/16:**
 
-	*Added css to tabbedmodule.css for tables
 
-	*Changed page titles to "Week x Instructional Materials" to match D2L naming convention
 
-	*Created colors.css which incorporate colors used on the CC website
 
-	*Modified heading structure for accessibility and color scheme
 
-	*Added class "activities" to modify H3 color on Activities tab
 
-	*Added JS code to accomodate up to 15 Lecture tab next/previous buttons
 
-	*Modified semantics of button id that leads to Review tab to #toreview
 
-	*Changed alert at bottom of Activites page to match naming convention in D2L, "Open Forum"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
