@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <!--TABBED MODULE TEMPLATE-->
 <!--LAST EDITED 2/17/2017-->
@@ -122,7 +121,7 @@
 	  <li>Product attributes.  As mentioned with the Big Mac vs the Whopper.  McDonalds and Burger King offer a different style of burger to have consumers buy their products.</li>
 	  <li>Service.  Look at grocery stores.  Some stores bag your groceries when you are finished, while others require customers to bag their own groceries.</li>
 	  <li>Location.  Convenience stores are located throughout an area and at times, closer to residential areas than large grocery stores.</li>
-	  <li>Brand names and advertising.  Firms spend lots of money to create a brand name that consumers want to purchase based on advertising.</li></br>
+	  <li>Brand names and advertising.  Firms spend lots of money to create a brand name that consumers want to purchase based on advertising.</li><br>
 	  <p>Based on these product attributes, monopolistically competitive firms do have some control over price.  If you want a Big Mac, you will pay what McDonalds charges.  However, since there are other places to get a burger, McDonalds does have some restrictions on what it can charge.</p>
       <p>Because of this, firms in the monopolistically competitive earn can earn a very slight economic profit even in the long-run.  If firms are earning economic profit in the short-run, more firms will enter the market, that will create downward pressure on profits.  One way that firms try to maintain those economic profits is to continually advertise to keep customers coming back and profits rolling in.</p>
 	  <p>Unlike the perfectly competitive firm, monopolistically competitive firms are neither productively or allocatively efficient.</p>
@@ -142,7 +141,7 @@
 	  <li>A few large supplier</li>
 	  <li>The product may be homogenous or heterogenous</li>
 	  <li>There are barriers to entry</li>
- 	  <li>Firms have control over price, but there is mutual interdependence</li></br>
+ 	  <li>Firms have control over price, but there is mutual interdependence</li><br>
 	  <p>Thus, as you can see, oligopolistic markets differ from monopolistically competitive markets by the fact there are fewer companies to purchase the products from and that those firms can offer the same type of product.  Further, due to the size of the firms, it is very difficult for new firms to enter the market.</p>
 	  <p>There are three basic oligopoly models.  One is kinked-demand theory.  This theory is based on the fact that when oligopolies compete, price increases are not matched by competitors, but if a firm does lower price to attract more customers, its competitors will match price.  Another is cartels and collusion.  A cartel is a situation where firms from an illegal alliance to keep output low and prices high.  The most famous cartel is OPEC, which is made up of various oil producing countries.  The final basic model is the price leadership model.  This occurs when there is one large firm that sets the price for the rest of the market.</p>
       <p>As one can imagine, based on these models, oligopolies are neither allocative or productively efficient.</p>
