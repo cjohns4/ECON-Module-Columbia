@@ -126,9 +126,8 @@
     word-wrap: break-word;
   }
 </style>
-	<ul>
+	
 	  <li> Product attributes. As mentioned with the Big Mac vs the Whopper. McDonald's and Burger King offer a different style of burger to have consumers buy their products.</li>
-</ul>
 	  <li>Service.  Look at grocery stores.  Some stores bag your groceries when you are finished, while others require customers to bag their own groceries.</li>
 	  <li>Location.  Convenience stores are located throughout an area and at times, closer to residential areas than large grocery stores.</li>
 	  <li>Brand names and advertising.  Firms spend lots of money to create a brand name that consumers want to purchase based on advertising.</li><br>
