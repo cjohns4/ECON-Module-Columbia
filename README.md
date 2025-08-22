@@ -78,9 +78,9 @@
       </div>
 <!--next/previous buttons-->
 <div style="clear:both"></div>
-<button type="button" id="overviewnext" class="btn btn-primary pull-right" onclick="location.href='#top'">Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></button>
+<button type="button" id="overviewnext" class="btn btn-primary pull-right" onclick="window.location.href='activities.html';"> Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></button>
 <div style="clear:both"></div>
-</div>
+
 <!--END OVERVIEW-->
 
 <!--BEGIN ACTIVITIES-->
