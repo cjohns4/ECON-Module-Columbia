@@ -16,6 +16,19 @@
       background-position: center; 
       background-repeat: no-repeat; 
     }
+	 /* Responsive layout adjustments */
+  @media (max-width: 768px) {
+    .lecture-wrapper {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .side-image {
+      margin-right: 0;
+      margin-bottom: 20px;
+      max-height: 50vh;
+    }
   </style>
 	<!--Bootstrap CSS, FontAwesome CSS (http://fontawesome.io/icons/) tabbedmodule CSS-->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
