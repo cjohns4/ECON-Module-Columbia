@@ -9,12 +9,12 @@
  <style>
 .banner {
   width: 100%;
-  height: 120px; /* Much smaller than 300px */
+  height: 120px; 
   background-image: url('img/jpeg.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  margin-bottom: 20px; /* Adds space below the banner */
+  margin-bottom: 20px; 
 }
   </style>
 	<!--Bootstrap CSS, FontAwesome CSS (http://fontawesome.io/icons/) tabbedmodule CSS-->
@@ -134,6 +134,7 @@
 <!--BEGIN LECTURE 1-->
 <div class="tab-pane fade" id="lecture1">
 	  <h2>Monopolistic Competition</h2>
+	  <div class="banner"></div>
       <p>There are three main characteristics of a monopolistically competitive market.  There are large amounts of buyers and sellers, there is relative ease of entry and exit into the 		market, and there are heterogenous products.  As you can see, the characteristics of the monopolistically competitive market and the perfectly competitive market are very 				similar.  The only major difference is that the products are heterogenous product rather than the homogenous product. </p>
 	  <p>Let’s look at an example.  The fast food industry is a very good example of a monopolistically competitive market.  There are many different places in most areas where one can 		go get a hamburger.  However, there is only one place to get a Big Mac.  There is only one place to go get a Whopper.  Thus the overall market is competitive, i.e. many places 		to get a burger, but monopolistic in that there is only one seller of any particular type of burger.</p>
 	  <p>Within the monopolistically competitive market, the way that firms distinguish themselves from their competitors is through product differentiation.  There are various ways 			that firms try to differentiate their products from their competitors.</p>
@@ -162,6 +163,7 @@
 <!--BEGIN LECTURE 2-->    
 <div class="tab-pane fade" id="lecture2">
       <h2>Oligopoly</h2>
+	  <div class="banner"></div>
       <p>The characteristics of the oligopoly market are as follows:</p>
 	  <li>A few large supplier</li>
 	  <li>The product may be homogenous or heterogenous</li>
@@ -187,6 +189,7 @@
 <!--BEGIN LECTURE 3-->
 <div class="tab-pane fade" id="lecture3">
     <h2>Market Power</h2>
+    <div class="banner"></div>
 	<p>As you can tell, consumers prefer the perfectly competitive or monopolistically competitive markets.  Firms, on the other hand, prefer the oligopolistic or monopoly structures.  This is because when there is good competition, we get more of the products at lower prices.  With less competition, we get fewer products and higher prices.</p>
     <p>This is because firms in less competitive industries can have market power.  A monopolist has the ultimate market power.  In a perfectly competitive industry, no firm has any market power.</p>
 	<p>In most situations, market power doesn’t just exist.  So, how do markets go from competitive to less competitive?  The main way is by mergers.  There are three types of mergers, horizontal, vertical, and conglomerate.  The type of merger that hinders competition and can create market power is the horizontal merger.  A horizontal merger is a merger between firms in the same industry selling similar goods.  An example of a horizontal would be if McDonalds and Burger King would merge.</p>
