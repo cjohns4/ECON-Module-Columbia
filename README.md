@@ -213,32 +213,21 @@
 	  <p>2. Why is a monopolistically competitive firm not allocatively efficient?</p>
 	  <p>3. What is the prisoner’s dilemma, and how does it relate to oligopoly behavior?</p>
       <p>4. What is the difference between a merger and an acquisition?</p>
-	   <div class="image-wrapper">
     <img src="img/small image.png" 
          alt="Knowledge Check header with checkmark icon on light gray background" 
          class="fixed-bottom-image">
   </div>
-</div>
 <style>
-.tab-pane {
-  position: relative;
-  min-height: 300px; /* adjust based on your content */
-  padding-bottom: 100px; /* space for the image */
-}
-
-.image-wrapper {
-  position: absolute;
+	.fixed-bottom-image {
+  position: fixed;
   bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
-  text-align: center;
-}
-
-.side-image {
   max-width: 200px;
   height: auto;
-}	
-</style>	
+  z-index: 1000;
+}
+</style>
 <div style="clear:both"></div>
 <!--ENSURE THIS BUTTON LINKS TO YOUR FINAL LECTURE PAGE-->
 <button type="button" id="lecture7prev" class="btn btn-primary pull-left" onclick="location.href='#top'"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous</button>
