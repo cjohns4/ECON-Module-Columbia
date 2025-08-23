@@ -209,30 +209,23 @@
 
 <div id="review" class="tab-pane fade">
       <h2>Knowledge Check</h2>
-	  <p>1. What distinguishes monopolistic competition from perfect competition?</p>
-	  <p>2. Why is a monopolistically competitive firm not allocatively efficient?</p>
-	  <p>3. What is the prisoner’s dilemma, and how does it relate to oligopoly behavior?</p>
-      <p>4. What is the difference between a merger and an acquisition?</p>
-      <img src="img/smallimage.png" 
+	<p> 
+		<img src="img/smallimage.png" 
          alt="Knowledge Check header with checkmark icon on light gray background" 
-         class="side-image">
+         class="inline-left-image"> role="presentation"> 
+		1. What distinguishes monopolistic competition from perfect competition?<br>
+	    2. Why is a monopolistically competitive firm not allocatively efficient?<br>
+	    3. What is the prisoner’s dilemma, and how does it relate to oligopoly behavior?<br>
+        4. What is the difference between a merger and an acquisition?</p>   
   </div>
 <style>
-  .content-wrapper {
-    display: flex;
-    align-items: flex-start;
-    gap: 20px; /* space between text and image */
-  }
-
-  .text-content {
-    flex: 1; /* allows text to take up remaining space */
-  }
-
-  .side-image {
-    width: 150px; /* adjust as needed */
-    height: auto;
-    object-fit: contain;
-  }
+  .inline-left-image {
+  float: left;
+  margin-right: 15px;
+  width: 120px; /* adjust as needed */
+  height: auto;
+  object-fit: contain;
+}
 </style>
 <div style="clear:both"></div>
 <!--ENSURE THIS BUTTON LINKS TO YOUR FINAL LECTURE PAGE-->
