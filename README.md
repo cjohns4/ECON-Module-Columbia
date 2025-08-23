@@ -26,7 +26,7 @@
 <br>
 <div class="container" style="padding-bottom:50px; padding-top:20px">
 
-<!--navigation tabs-->
+ <!--navigation tabs-->
   <ul class="nav nav-tabs" id="mytabs">
     <li class="active"><a data-toggle="tab" href="#overview">Overview</a></li>
     <li><a data-toggle="tab" href="#activities">Activities</a></li>
@@ -42,13 +42,13 @@
             <li><a data-toggle="tab" href="#lecture1">Lecture 1</a></li>
             <li><a data-toggle="tab" href="#lecture2">Lecture 2</a></li>
             <li><a data-toggle="tab" href="#lecture3">Lecture 3</a></li>
-     	    <li><a data-toggle="tab" href="#review">Review</a></li>
+			      
     	</ul></li>
 <!--end dropdown lecture menu-->        
     <li><a data-toggle="tab" href="#review">Review</a></li>
 	</ul>
 <!--end navigation tabs-->
-
+	
 <!--begin page content-->
 <div class="tab-content" style="margin-top:15px">
 
@@ -83,7 +83,6 @@
   </button>
   <div style="clear:both"></div>
 </div>
-
 
 <!--END OVERVIEW-->
 
@@ -185,37 +184,195 @@
 <h3>Mergers (MJM)</h3>
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/wlLdX0fs6hE?si=VrTqkQYbxk4LdUsc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <div style="clear:both"></div>
-<div style="clear:both"></div><button type="button" id="lecture2prev" class="btn btn-primary pull-left" onclick="window.location.href='lecture2.html';"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous
-</button><button type="button" id="lecture2next" class="btn btn-primary pull-right" onclick="window.location.href='review.html';">Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></button>
+<button type="button" id="lecture3prev" class="btn btn-primary pull-left" onclick="location.href='#top'"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous</button>
+<button type="button" id="lecture3next" class="btn btn-primary pull-right" onclick="location.href='#top'">Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></button>
 <div style="clear:both"></div>
-	
+</div>
 <!--END LECTURE 3-->
 
 <!--BEGIN REVIEW-->
 <!--IMPORTANT: questions and answers can be edited in the file "js/slickQuiz-config-1.js"-->
 
-<div class="tab-pane fade" id="review">
+<div id="review" class="tab-pane fade">
       <h2>Knowledge Check</h2><br/>
-      <p>1. What distinguishes monopolistic competition from perfect competition?</p><br/>
-	  <p>2. Why is a monopolistically competitive firm not allocatively efficient?</p><br/>
-	  <p>3. What is the difference between a merger and an acquisition?</p><br/>
-	  <p>4. Why might governments regulate monopolies or prevent certain mergers?</p><br/>
-
+      <p>1. What distinguishes monopolistic competition from perfect competition?</p>
+	  <p>2. Why is a monopolistically competitive firm not allocatively efficient?</p>
+	  <p>3. What is the prisoner’s dilemma, and how does it relate to oligopoly behavior?</p>
+	 	
 <div style="clear:both"></div>
 <!--ENSURE THIS BUTTON LINKS TO YOUR FINAL LECTURE PAGE-->
-<button type="button" class="btn btn-default pull-left" onclick="$('#mytabs a[href=\'#lecture3\']').tab('show');">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous
-  </button>
- <div style="clear:both"></div>
+<button type="button" id="lecture7prev" class="btn btn-primary pull-left" onclick="location.href='#top'"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous</button>
+<div style="clear:both"></div>
 </div>
-
 <!--END REVIEW-->  
 
 </div><!--DO NOT DELETE THIS TAG, IT CLOSES THE CONTAINER DIV!-->
-
+	
 <!--FOOTER-->
 <div class="panel-footer navbar-fixed-bottom center-block text-center" style="width:100%; clear:both; background-color:#fafafa;">ECON 294: Microeconomics</div>
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
