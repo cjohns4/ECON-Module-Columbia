@@ -137,7 +137,7 @@
   <div class="top-banner">
     <img src="img/mon tab.png" 
          alt="Banner showing shopping bags, price tag, and upward graph to represent product variety and market growth in monopolistic competition" 
-         style="height:200px;">
+         style="height:400px;">
   </div>
 </div>
       <p>There are three main characteristics of a monopolistically competitive market.  There are large amounts of buyers and sellers, there is relative ease of entry and exit into the 		market, and there are heterogenous products.  As you can see, the characteristics of the monopolistically competitive market and the perfectly competitive market are very 				similar.  The only major difference is that the products are heterogenous product rather than the homogenous product. </p>
