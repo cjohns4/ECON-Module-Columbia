@@ -223,8 +223,9 @@
   bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
-  max-width: 200px;
-  height: auto;
+  width: 150px;         /* Set a fixed width */
+  height: auto;         /* Maintain aspect ratio */
+  object-fit: contain;  /* Prevent distortion */
   z-index: 1000;
 }
 </style>
