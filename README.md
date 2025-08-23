@@ -7,10 +7,10 @@
 <title>Week 5 Instructional Materials</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <style>
-    /* CSS for the banner */
+   
     .banner {
       width: 100%; 
-      height: 300px; 
+      height: 250px; 
       background-image: url('img/jpeg.jpg'); 
       background-size: cover; 
       background-position: center; 
