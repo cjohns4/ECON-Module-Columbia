@@ -9,7 +9,7 @@
  <style>
    
     .banner {
-      width: 900%; 
+      width: 100%; 
       height: 220px; 
       background-image: url('img/jpeg.jpg'); 
       background-size: cover; 
