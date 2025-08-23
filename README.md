@@ -63,10 +63,10 @@
       <div class="panel panel-default">
       <div class="panel-heading"><h4>List of Weekly Objectives</h4></div>
       <div class="panel-body"><ul>
-      <li>Understand the characteristics of monopolistic competitive markets.</li>
-      <li>Describe the characteristics of an oligopolistic market.</li>
-      <li>Explain how industries become less competitive.</li>
-	  <li>Evaluate governmental intervention to limit monopoly power.</li>  
+      <li> Identify key traits of monopolistic competition, including product differentiation and market entry conditions.</li>
+      <li> Compare and contrast oligopolistic market structures, focusing on firm behavior, pricing strategies, and barriers to entry.</li>
+      <li> Analyze factors that reduce market competition, such as mergers, acquisitions, and regulatory shifts.</li>
+	  <li> Assess the role of government in controlling monopoly power, including antitrust laws and public policy tools.</li>  
 	  <h4>Readings</h4>
 		<p>Greenlaw, S. A. & Shapiro, D. (2018). <i>Principles of microeconomics</i> (2nd edition).</p>
         <a href="https://openstax.org/details/books/principles-microeconomics-2e">OpenStax. https://openstax.org/details/books/principles-microeconomics-2e 
