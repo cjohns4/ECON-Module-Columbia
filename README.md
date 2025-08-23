@@ -107,7 +107,7 @@
 <button type="button" id="activitiesprev" class="btn btn-primary pull-left" onclick="window.location.href='overview.html';"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous</button>
 <button type="button" id="activitiesnext" class="btn btn-primary pull-right" onclick="window.location.href='lecture1.html';">Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></button>
 <div style="clear:both"></div>
-
+	
 <!--END ACTIVITIES-->
 
 <!--LECTURE SECTIONS: IMPORTANT! DELETE THE TABS YOU DON'T USE OR THEY WILL PRINT JUNK CODE-->
@@ -118,7 +118,8 @@
       <p>There are three main characteristics of a monopolistically competitive market.  There are large amounts of buyers and sellers, there is relative ease of entry and exit into the market, and there are heterogenous products.  As you can see, the characteristics of the monopolistically competitive market and the perfectly competitive market are very similar.  The only major difference is that the products are heterogenous product rather than the homogenous product. </p>
 	  <p>Let’s look at an example.  The fast food industry is a very good example of a monopolistically competitive market.  There are many different places in most areas where one can go get a hamburger.  However, there is only one place to get a Big Mac.  There is only one place to go get a Whopper.  Thus the overall market is competitive, i.e. many places to get a burger, but monopolistic in that there is only one seller of any particular type of burger.</p>
 	  <p>Within the monopolistically competitive market, the way that firms distinguish themselves from their competitors is through product differentiation.  There are various ways that firms try to differentiate their products from their competitors.</p>
-	 <li> Product attributes. As mentioned with the Big Mac vs the Whopper. McDonald's and Burger King offer a different style of burger to have consumers buy their products.</li>
+	 
+	  <li>Product attributes.  As mentioned with the Big Mac vs the Whopper.  McDonalds and Burger King offer a different style of burger to have consumers buy their products.</li>
 	  <li>Service.  Look at grocery stores.  Some stores bag your groceries when you are finished, while others require customers to bag their own groceries.</li>
 	  <li>Location.  Convenience stores are located throughout an area and at times, closer to residential areas than large grocery stores.</li>
 	  <li>Brand names and advertising.  Firms spend lots of money to create a brand name that consumers want to purchase based on advertising.</li><br>
@@ -128,10 +129,10 @@
 	  <h3>Monopolistic Competition (MJM)</h3>
 	  <iframe width="560" height="315" src="https://www.youtube.com/embed/T3F1Vt3IyNc?si=Pl6tzeJFXW15Ruii" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <div style="clear:both"></div>
-<button type="button" id="lecture1prev" class="btn btn-primary pull-left" onclick="location.href='#top'"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous</button>
-<button type="button" id="lecture1next" class="btn btn-primary pull-right" onclick="location.href='#top'">Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></button>
+<button type="button" id="lecture2prev" class="btn btn-primary pull-left" onclick="window.location.href='activities.html';"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous</button>
+<button type="button" id="lecture2next" class="btn btn-primary pull-right" onclick="window.location.href='lecture2.html';">Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></button>
 <div style="clear:both"></div>
-</div>
+	
 <!--END LECTURE 1-->
 
 <!--BEGIN LECTURE 2-->    
@@ -148,10 +149,10 @@
 	  <h3>Oligopoly (MJM)</h3>
 	  <iframe width="560" height="315" src="https://www.youtube.com/embed/ElBF2D7IHAI?si=4fpqepR1LTsW1iCm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <div style="clear:both"></div>
-<button type="button" id="lecture2prev" class="btn btn-primary pull-left" onclick="location.href='#top'"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous</button>
-<button type="button" id="lecture2next" class="btn btn-primary pull-right" onclick="location.href='#top'">Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></button>
-<div style="clear:both"></div>
-</div>
+<button type="button" id="lecture2prev" class="btn btn-primary pull-left" onclick="window.location.href='lecture1.html';"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous</button>
+<button type="button" id="lecture2next" class="btn btn-primary pull-right" onclick="window.location.href='lecture3.html';">Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></button>
+<div style="clear:both"></div
+							
 <!--END LECTURE 2-->
 
 <!--BEGIN LECTURE 3-->
@@ -165,10 +166,10 @@
 <h3>Mergers (MJM)</h3>
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/wlLdX0fs6hE?si=VrTqkQYbxk4LdUsc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <div style="clear:both"></div>
-<button type="button" id="lecture3prev" class="btn btn-primary pull-left" onclick="location.href='#top'"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous</button>
-<button type="button" id="lecture3next" class="btn btn-primary pull-right" onclick="location.href='#top'">Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></button>
+<div style="clear:both"></div><button type="button" id="lecture2prev" class="btn btn-primary pull-left" onclick="window.location.href='lecture2.html';"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous
+</button><button type="button" id="lecture2next" class="btn btn-primary pull-right" onclick="window.location.href='review.html';">Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></button>
 <div style="clear:both"></div>
-</div>
+	
 <!--END LECTURE 3-->
 
 <!--BEGIN REVIEW-->
@@ -183,9 +184,9 @@
 
 <div style="clear:both"></div>
 <!--ENSURE THIS BUTTON LINKS TO YOUR FINAL LECTURE PAGE-->
-<button type="button" id="lecture7prev" class="btn btn-primary pull-left" onclick="location.href='#top'"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous</button>
+<button type="button" id="lecture3prev" class="btn btn-primary pull-left" onclick="window.location.href='lecture3.html';"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous</button>
 <div style="clear:both"></div>
-</div>
+
 <!--END REVIEW-->  
 
 </div><!--DO NOT DELETE THIS TAG, IT CLOSES THE CONTAINER DIV!-->
@@ -197,6 +198,124 @@
 </body>
 
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
