@@ -28,27 +28,27 @@
 <div class="container" style="padding-bottom:50px; padding-top:20px">
 
 <!--navigation tabs-->
-<ul class="nav nav-tabs" id="mytabs">
-  <li class="active"><a data-toggle="tab" href="#overview">Overview</a></li>
-  <li><a data-toggle="tab" href="#activities">Activities</a></li>
-  <li><a href="#review" data-toggle="tab">Review</a></li>
+  <ul class="nav nav-tabs" id="mytabs">
+    <li class="active"><a data-toggle="tab" href="#overview">Overview</a></li>
+    <li><a data-toggle="tab" href="#activities">Activities</a></li>
 
-  <!--begin dropdown lecture menu-->
-  <li class="dropdown">
-    <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-      Lecture <span class="caret"></span>
-    </a>
-    <ul class="dropdown-menu">
-      <!--Add or delete lecture links as needed-->
-      <li><a data-toggle="tab" href="#lecture1">Lecture 1</a></li>
-      <li><a data-toggle="tab" href="#lecture2">Lecture 2</a></li>
-      <li><a data-toggle="tab" href="#lecture3">Lecture 3</a></li>
-      <li><a data-toggle="tab" href="#review">Review</a></li>
-    </ul>
-  </li>
-  <!--end dropdown lecture menu-->
-</ul>
-<!--end navigation tabs-->    
+<!--begin dropdown lecture menu-->
+     <li class="dropdown">
+          <a href="#lecture" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Lecture <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+<!--Delete from 'begin dropdown lecture menu' to here to convert to normal tabs. -->
+<!--Add or delete lecture links as needed.-->
+<!--Ensure final lecture's 'next' button has the id "toreview".-->
+<!--Ensure the button from review back to lecture points to the right lecture using button ids (see tabbedmodule.css for reference)-->
+            <li><a data-toggle="tab" href="#lecture1">Lecture 1</a></li>
+            <li><a data-toggle="tab" href="#lecture2">Lecture 2</a></li>
+            <li><a data-toggle="tab" href="#lecture3">Lecture 3</a></li>
+      
+    	</ul></li>
+<!--end dropdown lecture menu-->        
+    <li><a data-toggle="tab" href="#review">Review</a></li>
+	</ul>
+<!--end navigation tabs-->  
    
 <!--begin page content-->
 <div class="tab-content" style="margin-top:15px">
@@ -194,28 +194,23 @@
 
 <!--BEGIN REVIEW-->
 <!--IMPORTANT: questions and answers can be edited in the file "js/slickQuiz-config-1.js"-->
+	
+<div id="review" class="tab-pane fade">
+      <h2>Knowledge Check</h2><br/>
+      <p>1. What distinguishes monopolistic competition from perfect competition?</p><br/>
+	  <p>2. Why is a monopolistically competitive firm not allocatively efficient?</p><br/>
+	  <p>3. What is the prisoner’s dilemma, and how does it relate to oligopoly behavior?</p><br/>
+	  <p>4. What is the difference between a merger and an acquisition?</p><br/>
+	  <p>5. Why might governments regulate monopolies or prevent certain mergers?</p><br/>
 
-<div class="tab-pane fade" id="review">
-  <h2>Knowledge Check</h2>
-
-  <p>1. What distinguishes monopolistic competition from perfect competition?</p>
-  <p>2. Why is a monopolistically competitive firm not allocatively efficient?</p>
-  <p>3. What is the difference between a merger and an acquisition?</p>
-  <p>4. Why might governments regulate monopolies or prevent certain mergers?</p>
-
-  <div style="clear:both;"></div>
-
-  <!--ENSURE THIS BUTTON LINKS TO YOUR FINAL LECTURE PAGE-->
-  <button type="button" class="btn btn-default pull-left" onclick="$('#mytabs a[href=\'#lecture3\']').tab('show');">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous
-  </button>
-
-  <div style="clear:both;"></div>
+<div style="clear:both"></div>
+<!--ENSURE THIS BUTTON LINKS TO YOUR FINAL LECTURE PAGE-->
+<button type="button" id="lecture7prev" class="btn btn-primary pull-left" onclick="location.href='#top'"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous</button>
+<div style="clear:both"></div>
 </div>
-<!--END REVIEW-->
-<!-- This closes the overall tab-content container -->
-</div><!--DO NOT DELETE THIS TAG, IT CLOSES THE CONTAINER DIV!-->
+<!--END REVIEW-->  
 
+</div><!--DO NOT DELETE THIS TAG, IT CLOSES THE CONTAINER DIV!-->
 	
 <!--FOOTER-->
 <div class="panel-footer navbar-fixed-bottom center-block text-center" style="width:100%; clear:both; background-color:#fafafa;">ECON 294: Microeconomics</div>
@@ -224,6 +219,7 @@
 </body>
 
 </html>
+
 
 
 
