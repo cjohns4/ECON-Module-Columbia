@@ -10,11 +10,11 @@
     /* CSS for the banner */
     .banner {
       width: 100%; /* Full width */
-      height: 200px; /* Adjust height as needed */
-      background-image: url('img/jpeg.jpg'); /* Replace with your image file */
-      background-size: cover; /* Ensures the image covers the entire banner */
-      background-position: center; /* Centers the image */
-      background-repeat: no-repeat; /* Prevents tiling */
+      height: 300px; /* Adjust height as needed */
+      background-image: url('img/jpeg.jpg'); 
+      background-size: cover; 
+      background-position: center; 
+      background-repeat: no-repeat; 
     }
   </style>
 	<!--Bootstrap CSS, FontAwesome CSS (http://fontawesome.io/icons/) tabbedmodule CSS-->
