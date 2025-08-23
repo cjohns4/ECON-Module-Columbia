@@ -82,6 +82,7 @@
   Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 </button>
 <div style="clear:both"></div>
+
 <!--END OVERVIEW-->
 
 <!--BEGIN ACTIVITIES-->
