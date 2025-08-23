@@ -206,11 +206,7 @@
 <button type="button" class="btn btn-default pull-left" onclick="$('#mytabs a[href=\'#lecture3\']').tab('show');">
     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous
   </button>
-  <button type="button" class="btn btn-success pull-right" onclick="$('html, body').animate({ scrollTop: $('#top').offset().top }, 500);">
-    Finish <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
-  </button>
-
-  <div style="clear:both"></div>
+ <div style="clear:both"></div>
 </div>
 
 <!--END REVIEW-->  
