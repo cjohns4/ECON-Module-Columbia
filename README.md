@@ -221,10 +221,6 @@
 <div class="panel-footer navbar-fixed-bottom center-block text-center" style="width:100%; clear:both; background-color:#fafafa;">ECON 294: Microeconomics</div>
 </div>
 
-</body>
-
-</html>
-
 
 
 
