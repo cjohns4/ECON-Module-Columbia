@@ -9,8 +9,8 @@
  <style>
     /* CSS for the banner */
     .banner {
-      width: 100%; /* Full width */
-      height: 300px; /* Adjust height as needed */
+      width: 100%; 
+      height: 300px; 
       background-image: url('img/jpeg.jpg'); 
       background-size: cover; 
       background-position: center; 
