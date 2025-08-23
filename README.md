@@ -7,26 +7,15 @@
 <title>Week 5 Instructional Materials</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <style>
-    .banner {
+.banner {
   width: 100%;
-  aspect-ratio: 16 / 4;
+  height: 120px; /* Much smaller than 300px */
   background-image: url('img/jpeg.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  margin-bottom: 20px; /* Adds space below the banner */
 }
-	 @media (max-width: 768px) {
-    .lecture-wrapper {
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-    }
-
-    .side-image {
-      margin-right: 0;
-      margin-bottom: 20px;
-      max-height: 50vh;
-    }
   </style>
 	<!--Bootstrap CSS, FontAwesome CSS (http://fontawesome.io/icons/) tabbedmodule CSS-->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
