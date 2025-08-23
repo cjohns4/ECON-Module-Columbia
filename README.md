@@ -61,7 +61,7 @@
 	 <p>And as we discussed, monopolies are not very consumer friendly.  This can be expanded further to anytime there is less competition, then consumers are disadvantaged compared to the businesses.  Because of this ability of large firms to exhibit market power, government has enacted various laws to counter the effect of monopoly power when industries start to consolidate into markets with a smaller number of large firms rather than a large number of smaller firms.</p>
  <br>
       <div class="panel panel-default">
-      <div class="panel-heading"><h3>List of Weekly Objectives</h3></div>
+      <div class="panel-heading"><h4>List of Weekly Objectives</h4></div>
       <div class="panel-body"><ul>
       <li>Understand the characteristics of monopolistic competitive markets.</li>
       <li>Describe the characteristics of an oligopolistic market.</li>
