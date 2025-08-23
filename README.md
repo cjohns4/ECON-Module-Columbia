@@ -53,7 +53,7 @@
 <div class="tab-content" style="margin-top:15px">
 
 <!--BEGIN OVERVIEW-->
-<div id="overview" class="tab-pane fade in active">
+<div class="tab-pane fade in active" id="overview">
      <h1>Week 5: Monopolistic Competition/Oligopoly and Market Power</h1>
 	 <h2>Understanding Market Structures and Consumer Behavior</h2>
      <p>Last week, we delved into the world of relatively non-existent market structures.  This week, we jump headlong into the two most prevalent market structures in modern economies, monopolistic competition and oligopolies.</p>
@@ -78,15 +78,17 @@
       </div>
 <!--next/previous buttons-->
 <div style="clear:both"></div>
-<button type="button" id="overviewnext" class="btn btn-primary pull-right" onclick="$('#mytabs a[href=\'#activities\']').tab('show');">
-  Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-</button>
-<div style="clear:both"></div>
+  <button type="button" class="btn btn-primary pull-right" onclick="$('#mytabs a[href=\'#activities\']').tab('show');">
+    Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+  </button>
+  <div style="clear:both"></div>
+</div>
+
 
 <!--END OVERVIEW-->
 
 <!--BEGIN ACTIVITIES-->
-<div id="activities" class="tab-pane fade">
+<div class="tab-pane fade" id="activities">
       <h2>Activities</h2>
       <h3 class="activities"><i class="fa fa-book" aria-hidden="true"></i> Learning Resources</h3>
       <ul>
@@ -105,17 +107,22 @@
   <p class="text-center">If you have questions regarding any of these activities, make sure to post those questions in the <strong>Open Forum</strong>.</p>
 	 </div>
 
-<div style="clear:both"></div>
-<button type="button" id="activitiesprev" class="btn btn-primary pull-left" onclick="window.location.href='overview.html';"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous</button>
-<button type="button" id="activitiesnext" class="btn btn-primary pull-right" onclick="window.location.href='lecture1.html';">Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></button>
-<div style="clear:both"></div>
-	
+ <div style="clear:both"></div>
+  <button type="button" class="btn btn-default pull-left" onclick="$('#mytabs a[href=\'#overview\']').tab('show');">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous
+  </button>
+  <button type="button" class="btn btn-primary pull-right" onclick="$('#mytabs a[href=\'#lecture1\']').tab('show');">
+    Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+  </button>
+  <div style="clear:both"></div>
+</div>
+
 <!--END ACTIVITIES-->
 
 <!--LECTURE SECTIONS: IMPORTANT! DELETE THE TABS YOU DON'T USE OR THEY WILL PRINT JUNK CODE-->
 
 <!--BEGIN LECTURE 1-->
-<div id="lecture1" class="tab-pane fade">
+<div class="tab-pane fade" id="lecture1">
 	  <h2>Monopolistic Competition</h2>
       <p>There are three main characteristics of a monopolistically competitive market.  There are large amounts of buyers and sellers, there is relative ease of entry and exit into the market, and there are heterogenous products.  As you can see, the characteristics of the monopolistically competitive market and the perfectly competitive market are very similar.  The only major difference is that the products are heterogenous product rather than the homogenous product. </p>
 	  <p>Let’s look at an example.  The fast food industry is a very good example of a monopolistically competitive market.  There are many different places in most areas where one can go get a hamburger.  However, there is only one place to get a Big Mac.  There is only one place to go get a Whopper.  Thus the overall market is competitive, i.e. many places to get a burger, but monopolistic in that there is only one seller of any particular type of burger.</p>
@@ -130,15 +137,20 @@
 	  <p>Unlike the perfectly competitive firm, monopolistically competitive firms are neither productively or allocatively efficient.</p>
 	  <h3>Monopolistic Competition (MJM)</h3>
 	  <iframe width="560" height="315" src="https://www.youtube.com/embed/T3F1Vt3IyNc?si=Pl6tzeJFXW15Ruii" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<div style="clear:both"></div>
-<button type="button" id="lecture2prev" class="btn btn-primary pull-left" onclick="window.location.href='activities.html';"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous</button>
-<button type="button" id="lecture2next" class="btn btn-primary pull-right" onclick="window.location.href='lecture2.html';">Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></button>
-<div style="clear:both"></div>
-	
+  <div style="clear:both"></div>
+  <button type="button" class="btn btn-default pull-left" onclick="$('#mytabs a[href=\'#activities\']').tab('show');">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous
+  </button>
+  <button type="button" class="btn btn-primary pull-right" onclick="$('#mytabs a[href=\'#lecture2\']').tab('show');">
+    Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+  </button>
+  <div style="clear:both"></div>
+</div>
+
 <!--END LECTURE 1-->
 
 <!--BEGIN LECTURE 2-->    
-<div id="lecture2" class="tab-pane fade">
+<div class="tab-pane fade" id="lecture2">
       <h2>Oligopoly</h2>
       <p>The characteristics of the oligopoly market are as follows:</p>
 	  <li>A few large supplier</li>
@@ -150,15 +162,20 @@
       <p>As one can imagine, based on these models, oligopolies are neither allocative or productively efficient.</p>
 	  <h3>Oligopoly (MJM)</h3>
 	  <iframe width="560" height="315" src="https://www.youtube.com/embed/ElBF2D7IHAI?si=4fpqepR1LTsW1iCm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<div style="clear:both"></div>
-<button type="button" id="lecture2prev" class="btn btn-primary pull-left" onclick="window.location.href='lecture1.html';"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous</button>
-<button type="button" id="lecture2next" class="btn btn-primary pull-right" onclick="window.location.href='lecture3.html';">Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></button>
-<div style="clear:both"></div>
-							
+  <div style="clear:both"></div>
+  <button type="button" class="btn btn-default pull-left" onclick="$('#mytabs a[href=\'#lecture1\']').tab('show');">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous
+  </button>
+  <button type="button" class="btn btn-primary pull-right" onclick="$('#mytabs a[href=\'#lecture3\']').tab('show');">
+    Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+  </button>
+  <div style="clear:both"></div>
+</div>
+						
 <!--END LECTURE 2-->
 
 <!--BEGIN LECTURE 3-->
-<div id="lecture3" class="tab-pane fade">
+<div class="tab-pane fade" id="lecture3">
     <h2>Market Power</h2>
 	<p>As you can tell, consumers prefer the perfectly competitive or monopolistically competitive markets.  Firms, on the other hand, prefer the oligopolistic or monopoly structures.  This is because when there is good competition, we get more of the products at lower prices.  With less competition, we get fewer products and higher prices.</p>
     <p>This is because firms in less competitive industries can have market power.  A monopolist has the ultimate market power.  In a perfectly competitive industry, no firm has any market power.</p>
@@ -177,7 +194,7 @@
 <!--BEGIN REVIEW-->
 <!--IMPORTANT: questions and answers can be edited in the file "js/slickQuiz-config-1.js"-->
 
-<div id="review" class="tab-pane fade">
+<div class="tab-pane fade" id="review">
       <h2>Knowledge Check</h2><br/>
       <p>1. What distinguishes monopolistic competition from perfect competition?</p><br/>
 	  <p>2. Why is a monopolistically competitive firm not allocatively efficient?</p><br/>
@@ -186,8 +203,15 @@
 
 <div style="clear:both"></div>
 <!--ENSURE THIS BUTTON LINKS TO YOUR FINAL LECTURE PAGE-->
-<button type="button" id="lecture3prev" class="btn btn-primary pull-left" onclick="window.location.href='lecture3.html';"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous</button>
-<div style="clear:both"></div>
+<button type="button" class="btn btn-default pull-left" onclick="$('#mytabs a[href=\'#lecture3\']').tab('show');">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous
+  </button>
+  <button type="button" class="btn btn-success pull-right" onclick="$('html, body').animate({ scrollTop: $('#top').offset().top }, 500);">
+    Finish <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+  </button>
+
+  <div style="clear:both"></div>
+</div>
 
 <!--END REVIEW-->  
 
@@ -200,6 +224,128 @@
 </body>
 
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
