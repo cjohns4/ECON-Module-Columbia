@@ -134,9 +134,12 @@
 <!--BEGIN LECTURE 1-->
 <div class="tab-pane fade" id="lecture1">
 	  <h2>Monopolistic Competition</h2>
-      <p>There are three main characteristics of a monopolistically competitive market.  There are large amounts of buyers and sellers, there is relative ease of entry and exit into the market, and there are heterogenous products.  As you can see, the characteristics of the monopolistically competitive market and the perfectly competitive market are very similar.  The only major difference is that the products are heterogenous product rather than the homogenous product. </p>
-	  <p>Let’s look at an example.  The fast food industry is a very good example of a monopolistically competitive market.  There are many different places in most areas where one can go get a hamburger.  However, there is only one place to get a Big Mac.  There is only one place to go get a Whopper.  Thus the overall market is competitive, i.e. many places to get a burger, but monopolistic in that there is only one seller of any particular type of burger.</p>
-	  <p>Within the monopolistically competitive market, the way that firms distinguish themselves from their competitors is through product differentiation.  There are various ways that firms try to differentiate their products from their competitors.</p>
+	<div class="top-banner">
+  <img src="img/mon tab.png" alt="Banner showing shopping bags, price tag, and upward graph to represent product variety and market growth in monopolistic competition">
+</div>
+      <p>There are three main characteristics of a monopolistically competitive market.  There are large amounts of buyers and sellers, there is relative ease of entry and exit into the 		market, and there are heterogenous products.  As you can see, the characteristics of the monopolistically competitive market and the perfectly competitive market are very 				similar.  The only major difference is that the products are heterogenous product rather than the homogenous product. </p>
+	  <p>Let’s look at an example.  The fast food industry is a very good example of a monopolistically competitive market.  There are many different places in most areas where one can 		go get a hamburger.  However, there is only one place to get a Big Mac.  There is only one place to go get a Whopper.  Thus the overall market is competitive, i.e. many places 		to get a burger, but monopolistic in that there is only one seller of any particular type of burger.</p>
+	  <p>Within the monopolistically competitive market, the way that firms distinguish themselves from their competitors is through product differentiation.  There are various ways 			that firms try to differentiate their products from their competitors.</p>
 	 
 	  <li>Product attributes.  As mentioned with the Big Mac vs the Whopper.  McDonalds and Burger King offer a different style of burger to have consumers buy their products.</li>
 	  <li>Service.  Look at grocery stores.  Some stores bag your groceries when you are finished, while others require customers to bag their own groceries.</li>
