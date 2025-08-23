@@ -231,7 +231,7 @@
 <!--ENSURE THIS BUTTON LINKS TO YOUR FINAL LECTURE PAGE-->
 <button type="button" id="lecture7prev" class="btn btn-primary pull-left" onclick="location.href='#top'"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous</button>
 <div style="clear:both"></div>
-</div>
+
 <!--END REVIEW-->  
 
 </div><!--DO NOT DELETE THIS TAG, IT CLOSES THE CONTAINER DIV!-->
