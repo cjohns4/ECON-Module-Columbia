@@ -5,22 +5,18 @@
 <head>
 <meta charset="utf-8">
 <title>Week 5 Instructional Materials</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-  .top-banner {
-    width: 100%;
-    height: 20vh;
-    overflow: hidden;
-  }
-
-  .top-banner img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    display: block;
-  }
-</style>
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <style>
+    /* CSS for the banner */
+    .banner {
+      width: 100%; /* Full width */
+      height: 200px; /* Adjust height as needed */
+      background-image: url('images/jpeg.jpg'); /* Replace with your image file */
+      background-size: cover; /* Ensures the image covers the entire banner */
+      background-position: center; /* Centers the image */
+      background-repeat: no-repeat; /* Prevents tiling */
+    }
+  </style>
 <!--Bootstrap CSS, FontAwesome CSS (http://fontawesome.io/icons/) tabbedmodule CSS-->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
@@ -68,9 +64,7 @@
 
 <!--BEGIN OVERVIEW-->
 <div class="tab-pane fade in active" id="overview">
-	 <div class="top-banner">
-    <img src="jpeg.jpg" alt="Banner image">
-  </div>
+	 <div class="banner"></div>
      <h1>Week 5: Monopolistic Competition/Oligopoly and Market Power</h1>
 	 <h3>Understanding Market Structures and Consumer Behavior</h3>
      <p>Last week, we delved into the world of relatively non-existent market structures.  This week, we jump headlong into the two most prevalent market structures in modern economies, monopolistic competition and oligopolies.</p>
