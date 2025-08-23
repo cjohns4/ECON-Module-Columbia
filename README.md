@@ -208,7 +208,7 @@
 <!--IMPORTANT: questions and answers can be edited in the file "js/slickQuiz-config-1.js"-->
 
 <div id="review" class="tab-pane fade">
-      <h2>Knowledge Check</h2>
+      <h2>Review</h2>
 	<p> 
 		<img src="img/smallimage.png" 
          alt="Knowledge Check header with checkmark icon on light gray background" 
@@ -221,7 +221,7 @@
 <style>
   .inline-right-image {
   float: right;
-  margin-right: 15px;
+  margin-left: 15px;
   width: 130px; /* adjust as needed */
   height: auto;
   object-fit: contain;
