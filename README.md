@@ -163,11 +163,11 @@
     align-items: center;
     justify-content: flex-start;
     min-height: 60vh; /* ensures vertical centering within viewport */
-    padding-left: 5vw;
+    padding-right: 5vw;
   }
 
   .side-image {
-    height: 200px;
+    height: 400px;
     margin-right: 30px;
     flex-shrink: 0;
   }
