@@ -11,13 +11,13 @@
     .banner {
       width: 100%; /* Full width */
       height: 200px; /* Adjust height as needed */
-      background-image: url('images/jpeg.jpg'); /* Replace with your image file */
+      background-image: url('img/jpeg.jpg'); /* Replace with your image file */
       background-size: cover; /* Ensures the image covers the entire banner */
       background-position: center; /* Centers the image */
       background-repeat: no-repeat; /* Prevents tiling */
     }
   </style>
-<!--Bootstrap CSS, FontAwesome CSS (http://fontawesome.io/icons/) tabbedmodule CSS-->
+	<!--Bootstrap CSS, FontAwesome CSS (http://fontawesome.io/icons/) tabbedmodule CSS-->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 <link href="css/slickQuiz.css" media="screen" rel="stylesheet" type="text/css">
