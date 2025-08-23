@@ -213,7 +213,7 @@
 	  <p>2. Why is a monopolistically competitive firm not allocatively efficient?</p>
 	  <p>3. What is the prisoner’s dilemma, and how does it relate to oligopoly behavior?</p>
       <p>4. What is the difference between a merger and an acquisition?</p>
-    <img src="img/small image.png" 
+      <img src="img/smallimage.png" 
          alt="Knowledge Check header with checkmark icon on light gray background" 
          class="fixed-bottom-image">
   </div>
