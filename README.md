@@ -9,7 +9,7 @@
  <style>
     .banner {
   width: 100%;
-  aspect-ratio: 16 / 5;
+  aspect-ratio: 16 / 2;
   background-image: url('img/jpeg.jpg');
   background-size: cover;
   background-position: center;
