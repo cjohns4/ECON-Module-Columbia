@@ -67,7 +67,7 @@
       <li>Describe the characteristics of an oligopolistic market.</li>
       <li>Explain how industries become less competitive.</li>
 	  <li>Evaluate governmental intervention to limit monopoly power.</li>  
-	  <h5>Readings</h5>
+	  <h4>Readings</h4>
 		<p>Greenlaw, S. A. & Shapiro, D. (2018). <i>Principles of microeconomics</i> (2nd edition).</p>
         <a href="https://openstax.org/details/books/principles-microeconomics-2e">OpenStax. https://openstax.org/details/books/principles-microeconomics-2e 
 </a>
