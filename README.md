@@ -7,17 +7,15 @@
 <title>Week 5 Instructional Materials</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <style>
-   
     .banner {
-      width: 100%; 
-      height: 300px; 
-      background-image: url('img/jpeg.jpg'); 
-      background-size: cover; 
-      background-position: center; 
-      background-repeat: no-repeat; 
-    }
-	 /* Responsive layout adjustments */
-  @media (max-width: 768px) {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background-image: url('img/jpeg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+	 @media (max-width: 768px) {
     .lecture-wrapper {
       flex-direction: column;
       align-items: center;
