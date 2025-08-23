@@ -212,7 +212,7 @@
 	<p> 
 		<img src="img/smallimage.png" 
          alt="Knowledge Check header with checkmark icon on light gray background" 
-         class="inline-left-image"> role="presentation"> 
+         class="inline-left-image">  
 		1. What distinguishes monopolistic competition from perfect competition?<br>
 	    2. Why is a monopolistically competitive firm not allocatively efficient?<br>
 	    3. What is the prisoner’s dilemma, and how does it relate to oligopoly behavior?<br>
@@ -222,7 +222,7 @@
   .inline-left-image {
   float: left;
   margin-right: 15px;
-  width: 120px; /* adjust as needed */
+  width: 150px; /* adjust as needed */
   height: auto;
   object-fit: contain;
 }
