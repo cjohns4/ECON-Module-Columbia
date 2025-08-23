@@ -215,19 +215,24 @@
       <p>4. What is the difference between a merger and an acquisition?</p>
       <img src="img/smallimage.png" 
          alt="Knowledge Check header with checkmark icon on light gray background" 
-         class="fixed-bottom-image">
+         class="side-image">
   </div>
 <style>
-	.fixed-bottom-image {
-  position: fixed;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 150px;         /* Set a fixed width */
-  height: auto;         /* Maintain aspect ratio */
-  object-fit: contain;  /* Prevent distortion */
-  z-index: 1000;
-}
+  .content-wrapper {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px; /* space between text and image */
+  }
+
+  .text-content {
+    flex: 1; /* allows text to take up remaining space */
+  }
+
+  .side-image {
+    width: 150px; /* adjust as needed */
+    height: auto;
+    object-fit: contain;
+  }
 </style>
 <div style="clear:both"></div>
 <!--ENSURE THIS BUTTON LINKS TO YOUR FINAL LECTURE PAGE-->
