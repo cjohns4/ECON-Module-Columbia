@@ -152,7 +152,7 @@
 <div style="clear:both"></div>
 <button type="button" id="lecture2prev" class="btn btn-primary pull-left" onclick="window.location.href='lecture1.html';"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous</button>
 <button type="button" id="lecture2next" class="btn btn-primary pull-right" onclick="window.location.href='lecture3.html';">Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></button>
-<div style="clear:both"></div
+<div style="clear:both"></div>
 							
 <!--END LECTURE 2-->
 
