@@ -133,14 +133,14 @@
 
 <!--BEGIN LECTURE 1-->
 <div class="tab-pane fade" id="lecture1">
-  <h2>Monopolistic Competition</h2>
-  <div class="top-banner">
+	<div class="lecture-wrapper">
     <img src="img/mon tab.png" 
          alt="Banner showing shopping bags, price tag, and upward graph to represent product variety and market growth in monopolistic competition" 
-         style="height:400px;">
-  </div>
-</div>
-      <p>There are three main characteristics of a monopolistically competitive market.  There are large amounts of buyers and sellers, there is relative ease of entry and exit into the 		market, and there are heterogenous products.  As you can see, the characteristics of the monopolistically competitive market and the perfectly competitive market are very 				similar.  The only major difference is that the products are heterogenous product rather than the homogenous product. </p>
+         class="side-image">
+
+    <div class="lecture-content">
+  <h2>Monopolistic Competition</h2>
+        <p>There are three main characteristics of a monopolistically competitive market.  There are large amounts of buyers and sellers, there is relative ease of entry and exit into the 		market, and there are heterogenous products.  As you can see, the characteristics of the monopolistically competitive market and the perfectly competitive market are very 				similar.  The only major difference is that the products are heterogenous product rather than the homogenous product. </p>
 	  <p>Let’s look at an example.  The fast food industry is a very good example of a monopolistically competitive market.  There are many different places in most areas where one can 		go get a hamburger.  However, there is only one place to get a Big Mac.  There is only one place to go get a Whopper.  Thus the overall market is competitive, i.e. many places 		to get a burger, but monopolistic in that there is only one seller of any particular type of burger.</p>
 	  <p>Within the monopolistically competitive market, the way that firms distinguish themselves from their competitors is through product differentiation.  There are various ways 			that firms try to differentiate their products from their competitors.</p>
 	 
@@ -153,6 +153,30 @@
 	  <p>Unlike the perfectly competitive firm, monopolistically competitive firms are neither productively or allocatively efficient.</p>
 	  <h3>Monopolistic Competition (MJM)</h3>
 	  <iframe width="560" height="315" src="https://www.youtube.com/embed/T3F1Vt3IyNc?si=Pl6tzeJFXW15Ruii" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+   </div>
+  </div>
+</div>
+
+<style>
+  .lecture-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 60vh; /* ensures vertical centering within viewport */
+    padding-left: 5vw;
+  }
+
+  .side-image {
+    height: 200px;
+    margin-right: 30px;
+    flex-shrink: 0;
+  }
+
+  .lecture-content {
+    max-width: 600px;
+  }
+</style>
+
   <div style="clear:both"></div>
   <button type="button" class="btn btn-default pull-left" onclick="$('#mytabs a[href=\'#activities\']').tab('show');">
     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous
