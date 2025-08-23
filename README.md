@@ -55,7 +55,7 @@
 <!--BEGIN OVERVIEW-->
 <div class="tab-pane fade in active" id="overview">
      <h1>Week 5: Monopolistic Competition/Oligopoly and Market Power</h1>
-	 <h2>Understanding Market Structures and Consumer Behavior</h2>
+	 <h3>Understanding Market Structures and Consumer Behavior</h3>
      <p>Last week, we delved into the world of relatively non-existent market structures.  This week, we jump headlong into the two most prevalent market structures in modern economies, monopolistic competition and oligopolies.</p>
 	 <p>These two structures do have some similarities and at times can be very difficult to distinguish to between them.  It can be difficult not only because they are so prevalent, but also because one firm may one sell various brands of a product that make it appear that there are plenty of choices for the consumer, but in fact, we are just giving the same firm our money regardless of the product we purchase.</p>
 	 <p>And as we discussed, monopolies are not very consumer friendly.  This can be expanded further to anytime there is less competition, then consumers are disadvantaged compared to the businesses.  Because of this ability of large firms to exhibit market power, government has enacted various laws to counter the effect of monopoly power when industries start to consolidate into markets with a smaller number of large firms rather than a large number of smaller firms.</p>
