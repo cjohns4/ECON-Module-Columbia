@@ -216,7 +216,7 @@
 	   <div class="image-wrapper">
     <img src="img/small image.png" 
          alt="Knowledge Check header with checkmark icon on light gray background" 
-         class="side-image">
+         class="fixed-bottom-image">
   </div>
 </div>
 <style>
