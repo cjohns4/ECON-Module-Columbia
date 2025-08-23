@@ -133,9 +133,12 @@
 
 <!--BEGIN LECTURE 1-->
 <div class="tab-pane fade" id="lecture1">
-	  <h2>Monopolistic Competition</h2>
-	<div class="top-banner">
-  <img src="img/mon tab.png" alt="Banner showing shopping bags, price tag, and upward graph to represent product variety and market growth in monopolistic competition">
+  <h2>Monopolistic Competition</h2>
+  <div class="top-banner">
+    <img src="img/mon tab.png" 
+         alt="Banner showing shopping bags, price tag, and upward graph to represent product variety and market growth in monopolistic competition" 
+         style="height:200px;">
+  </div>
 </div>
       <p>There are three main characteristics of a monopolistically competitive market.  There are large amounts of buyers and sellers, there is relative ease of entry and exit into the 		market, and there are heterogenous products.  As you can see, the characteristics of the monopolistically competitive market and the perfectly competitive market are very 				similar.  The only major difference is that the products are heterogenous product rather than the homogenous product. </p>
 	  <p>Let’s look at an example.  The fast food industry is a very good example of a monopolistically competitive market.  There are many different places in most areas where one can 		go get a hamburger.  However, there is only one place to get a Big Mac.  There is only one place to go get a Whopper.  Thus the overall market is competitive, i.e. many places 		to get a burger, but monopolistic in that there is only one seller of any particular type of burger.</p>
