@@ -61,6 +61,7 @@
 <div class="tab-content" style="margin-top:15px">
 
 <!-- BEGIN OVERVIEW -->
+<div class="tab-content">
 <div class="tab-pane fade in active" id="overview">
   <h1>Week 5: Monopolistic Competition/Oligopoly and Market Power</h1>
   <div class="banner"></div>
@@ -128,16 +129,19 @@
       <div class="alert alert-info fade in">
   <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
   <p class="text-center">If you have questions regarding any of these activities, make sure to post those questions in the <strong>Open Forum</strong>.</p>
-</div> 
- <div style="clear:both"></div>
-<button type="button" id="activitiesprev" class="btn btn-primary float-left" 
-	onclick="$('a[href=\'#overview\']').tab('show');" aria-label="Go to Overview tab">Previous <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> 
-</button>
+</div>  
+	 <div style="clear:both;"></div>
+     <button type="button" id="activitiesprev" class="btn btn-primary pull-left"
+      onclick="$('a[href=\'#overview\']').tab('show');" aria-label="Go to Overview tab">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous
+    </button>
 
-<button type="button" id="activitiesnext" class="btn btn-primary float-right"
-        onclick="$('a[href=\'#lecture1\']').tab('show');" aria-label="Go to Lecture 1 tab">Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-</button>
-<div style="clear:both;"></div>
+    <button type="button" id="activitiesnext" class="btn btn-primary pull-right"
+      onclick="$('a[href=\'#lecture1\']').tab('show');" aria-label="Go to Lecture 1 tab">
+      Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    </button>
+    <div style="clear:both;"></div>
+  </div>
 <!--END ACTIVITIES-->
 
 <!--LECTURE SECTIONS: IMPORTANT! DELETE THE TABS YOU DON'T USE OR THEY WILL PRINT JUNK CODE-->
