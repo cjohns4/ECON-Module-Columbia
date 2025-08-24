@@ -104,8 +104,6 @@
 <div style="clear:both"></div>
 <button type="button" id="overviewnext" class="btn btn-primary pull-right" onclick="location.href='#activities'">Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></button>
 <div style="clear:both"></div>
-</div>
-</div>
 <!--END OVERVIEW-->
 
 <!--BEGIN ACTIVITIES-->
