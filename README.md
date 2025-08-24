@@ -70,14 +70,12 @@
   <p>As we discussed, monopolies are not very consumer-friendly. Anytime there’s less competition, consumers are disadvantaged. To counter this, governments enact laws to reduce monopoly power as industries consolidate.</p>
 
   <br>
-
   <div class="panel panel-default">
     <div class="panel-heading"><h4>List of Weekly Objectives</h4></div>
     <div class="panel-body">
       <img src="img/cartoonpersondress.png"
            alt="A cartoon-style female teacher with glasses and a bun, dressed in a green blazer and cream blouse, smiles warmly while pointing to the left with her right hand. She holds a brown book in her left arm and stands against a textured off-white background"
            class="inline-right-image">
-
       <ul>
         <li>Identify key traits of monopolistic competition, including product differentiation and market entry conditions.</li>
         <li>Compare and contrast oligopolistic market structures, focusing on firm behavior, pricing strategies, and barriers to entry.</li>
@@ -88,7 +86,9 @@
       <h4>Readings</h4>
       <p>Greenlaw, S. A. & Shapiro, D. (2018). <i>Principles of Microeconomics</i> (2nd edition).</p>
       <p><a href="https://openstax.org/details/books/principles-microeconomics-2e">OpenStax: Principles of Microeconomics 2e</a></p>
-      <li>Chapters 10 & 11</li>
+      <ul>
+	  <li>Chapters 10 & 11</li>
+  	  </ul>
     </div>
   </div>
 </div>
@@ -104,14 +104,11 @@
 </style>
 <!-- next/previous buttons -->
 <div style="clear:both;"></div>
-
 <button type="button" id="overviewnext" class="btn btn-primary pull-right"
         onclick="$('a[href=\'#activities\']').tab('show');" aria-label="Go to Activities tab">
   Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 </button>
-
 <div style="clear:both;"></div>
-</div>
 <!-- END OVERVIEW -->
 
 <!--BEGIN ACTIVITIES-->
