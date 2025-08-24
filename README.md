@@ -117,7 +117,6 @@
 	 </div>
 
   <div style="clear:both;"></div>
-
   <button type="button" class="btn btn-default pull-left"
           onclick="$('#mytabs a[href=\'#overview\']').tab('show');">
     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous
