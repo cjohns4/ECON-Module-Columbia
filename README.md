@@ -90,14 +90,13 @@
       </div>
       </div>
 <!--next/previous buttons-->
-<div style="clear:both;"></div>
+<button id="nextBtn" class="btn btn-primary">Next</button>
 
-<button type="button" class="btn btn-primary pull-right"
-        onclick="$('#mytabs a[href=\'#activities\']').tab('show');">
-  Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-</button>
-
-<div style="clear:both;"></div>
+<script>
+  $('#nextBtn').click(function () {
+    $('a[href="#activities"]').tab('show');
+  });
+</script>
 
 <!--END OVERVIEW-->
 
