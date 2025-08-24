@@ -208,7 +208,7 @@
 <!--BEGIN REVIEW-->
 <!--IMPORTANT: questions and answers can be edited in the file "js/slickQuiz-config-1.js"-->
 
-<div id="review" class="tab-pane fade">
+<div class="tab-pane fade" id="review">
       <h2>Review</h2>
 	<p> 
 		<img src="img/smallimage.png" 
