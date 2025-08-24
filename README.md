@@ -166,6 +166,7 @@
   </button>
 
   <div style="clear:both;"></div>
+</div>
 
 <!--END LECTURE 1-->
 
@@ -191,7 +192,8 @@
     Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
   </button>
   <div style="clear:both"></div>
-				
+</div>
+
 <!--END LECTURE 2-->
 
 <!--BEGIN LECTURE 3-->
@@ -209,6 +211,7 @@
 <button type="button" id="lecture3prev" class="btn btn-primary pull-left" onclick="location.href='#top'"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous</button>
 <button type="button" id="lecture3next" class="btn btn-primary pull-right" onclick="location.href='#top'">Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></button>
 <div style="clear:both"></div>
+</div>
 
 <!--END LECTURE 3-->
 
