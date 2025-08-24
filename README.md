@@ -124,12 +124,14 @@
     If you have questions regarding any of these activities, make sure to post those questions in the <strong>Open Forum</strong>.
   </p>
 </div>
+<div style="clear:both"></div>
 <a href="#overview" class="btn btn-primary pull-left" data-toggle="tab" role="tab" aria-label="Go to Overview tab">
   Previous <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
 </a>
 <a href="#lecture1" class="btn btn-primary pull-right" data-toggle="tab" role="tab" aria-label="Go to Lecture 1 tab">
   Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 </a>
+<div style="clear:both"></div>
  <!--END ACTIVITIES-->
 
 <!--LECTURE SECTIONS: IMPORTANT! DELETE THE TABS YOU DON'T USE OR THEY WILL PRINT JUNK CODE-->
