@@ -132,7 +132,6 @@
   Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 </a>
 <div style="clear:both"></div>
-</div>
  <!--END ACTIVITIES-->
 
 <!--LECTURE SECTIONS: IMPORTANT! DELETE THE TABS YOU DON'T USE OR THEY WILL PRINT JUNK CODE-->
@@ -158,7 +157,6 @@
 <button type="button" id="activitiesprev" class="btn btn-primary pull-left" onclick="location.href='#activities'"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous</button>
 <button type="button" id="activitiesnext" class="btn btn-primary pull-right" onclick="location.href='#lecture2'">Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></button>
 <div style="clear:both"></div>
-</div>
 <!--END LECTURE 1-->
 
 <!--BEGIN LECTURE 2-->    
@@ -179,7 +177,6 @@
 <button type="button" id="activitiesprev" class="btn btn-primary pull-left" onclick="location.href='#lecture1'"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous</button>
 <button type="button" id="activitiesnext" class="btn btn-primary pull-right" onclick="location.href='#lecture3'">Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></button>
 <div style="clear:both"></div>
-</div>
 <!--END LECTURE 2-->
 
 <!--BEGIN LECTURE 3-->
@@ -197,7 +194,6 @@
 <button type="button" id="activitiesprev" class="btn btn-primary pull-left" onclick="location.href='#lecture2'"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous</button>
 <button type="button" id="activitiesnext" class="btn btn-primary pull-right" onclick="location.href='#review'">Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></button>
 <div style="clear:both"></div>
-</div>	
 <!--END LECTURE 3-->
 
 <!--BEGIN REVIEW-->
