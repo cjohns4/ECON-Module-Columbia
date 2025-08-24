@@ -74,7 +74,7 @@
     <div class="panel-heading"><h4>List of Weekly Objectives</h4></div>
     <div class="panel-body">
       <img src="img/cartoonpersondress.png"
-           alt="A cartoon-style female teacher with glasses and a bun, dressed in a green blazer and cream blouse, smiles warmly while pointing to the left with her right hand. She holds a brown book in her left arm and stands against a textured off-white background"
+           alt="A cartoon-style female teacher with glasses and a bun, dressed in a green blazer and cream blouse, smiles warmly while pointing to the left with her right hand. She 			   holds a brown book in her left arm and stands against a textured off-white background"
            class="inline-right-image">
       <ul>
         <li>Identify key traits of monopolistic competition, including product differentiation and market entry conditions.</li>
@@ -128,12 +128,16 @@
       <div class="alert alert-info fade in">
   <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
   <p class="text-center">If you have questions regarding any of these activities, make sure to post those questions in the <strong>Open Forum</strong>.</p>
-	 </div>
+</div> 
+ <div style="clear:both"></div>
+<button type="button" id="activitiesprev" class="btn btn-primary pull-left" onclick="location.href='#overview'">
+  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous
+</button>
+
+<button type="button" id="activitiesnext" class="btn btn-primary pull-right" onclick="location.href='#lecture1'">
+  Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+</button>
 <div style="clear:both"></div>
-<button type="button" id="activitiesprev" class="btn btn-primary pull-left" onclick="location.href='#overview'"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous</button>
-<button type="button" id="activitiesnext" class="btn btn-primary pull-right" onclick="location.href='#lecture1'">Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></button>
-<div style="clear:both"></div>
-</div>
 <!--END ACTIVITIES-->
 
 <!--LECTURE SECTIONS: IMPORTANT! DELETE THE TABS YOU DON'T USE OR THEY WILL PRINT JUNK CODE-->
