@@ -64,42 +64,49 @@
 <!--begin page content-->
 <div class="tab-content" style="margin-top:15px">
 
-<!--BEGIN OVERVIEW-->
+<!-- BEGIN OVERVIEW -->
 <div class="tab-pane fade in active" id="overview">
-	 <h1>Week 5: Monopolistic Competition/Oligopoly and Market Power</h1>
-	 <div class="banner"></div>
-	 <h3>Understanding Market Structures and Consumer Behavior</h3>
-     <p>Last week, we delved into the world of relatively non-existent market structures.  This week, we jump headlong into the two most prevalent market structures in modern economies, monopolistic competition and oligopolies.</p>
-	 <p>These two structures do have some similarities and at times can be very difficult to distinguish to between them.  It can be difficult not only because they are so prevalent, but also because one firm may one sell various brands of a product that make it appear that there are plenty of choices for the consumer, but in fact, we are just giving the same firm our money regardless of the product we purchase.</p>
-	 <p>And as we discussed, monopolies are not very consumer friendly.  This can be expanded further to anytime there is less competition, then consumers are disadvantaged compared to the businesses.  Because of this ability of large firms to exhibit market power, government has enacted various laws to counter the effect of monopoly power when industries start to consolidate into markets with a smaller number of large firms rather than a large number of smaller firms.</p>
- <br>
-      <div class="panel panel-default">
-      <div class="panel-heading"><h4>List of Weekly Objectives</h4></div>
-      <div class="panel-body"><ul>
-    <p> <img src="img/cartoonpersondress.png" 
-         alt="A cartoon-style female teacher with glasses and a bun, dressed in a green blazer and cream blouse, smiles warmly while pointing to the left with her right hand. She holds 		 a brown book in her left arm and stands against a textured off-white background" 
-         class="inline-right-image">
-	  <li> Identify key traits of monopolistic competition, including product differentiation and market entry conditions.</li>
-      <li> Compare and contrast oligopolistic market structures, focusing on firm behavior, pricing strategies, and barriers to entry.</li>
-      <li> Analyze factors that reduce market competition, such as mergers, acquisitions, and regulatory shifts.</li>
-	  <li> Assess the role of government in controlling monopoly power, including antitrust laws and public policy tools.</li>  
-	  <h4>Readings</h4>
-		<p>Greenlaw, S. A. & Shapiro, D. (2018). <i>Principles of microeconomics</i> (2nd edition).</p>
-        <a href="https://openstax.org/details/books/principles-microeconomics-2e">OpenStax. https://openstax.org/details/books/principles-microeconomics-2e </a>
-		<li>Chapters 10 & 11</li></p>
-	  </div>
+  <h1>Week 5: Monopolistic Competition/Oligopoly and Market Power</h1>
+  <div class="banner"></div>
+
+  <h3>Understanding Market Structures and Consumer Behavior</h3>
+  <p>Last week, we delved into the world of relatively non-existent market structures. This week, we jump headlong into the two most prevalent market structures in modern economies: monopolistic competition and oligopolies.</p>
+  <p>These two structures have similarities and can be difficult to distinguish. One firm may sell various brands of a product, creating the illusion of choice while still capturing all consumer spending.</p>
+  <p>As we discussed, monopolies are not very consumer-friendly. Anytime there’s less competition, consumers are disadvantaged. To counter this, governments enact laws to reduce monopoly power as industries consolidate.</p>
+
+  <br>
+
+  <div class="panel panel-default">
+    <div class="panel-heading"><h4>List of Weekly Objectives</h4></div>
+    <div class="panel-body">
+      <img src="img/cartoonpersondress.png"
+           alt="A cartoon-style female teacher with glasses and a bun, dressed in a green blazer and cream blouse, smiles warmly while pointing to the left with her right hand. She holds a brown book in her left arm and stands against a textured off-white background"
+           class="inline-right-image">
+
+      <ul>
+        <li>Identify key traits of monopolistic competition, including product differentiation and market entry conditions.</li>
+        <li>Compare and contrast oligopolistic market structures, focusing on firm behavior, pricing strategies, and barriers to entry.</li>
+        <li>Analyze factors that reduce market competition, such as mergers, acquisitions, and regulatory shifts.</li>
+        <li>Assess the role of government in controlling monopoly power, including antitrust laws and public policy tools.</li>
+      </ul>
+
+      <h4>Readings</h4>
+      <p>Greenlaw, S. A. & Shapiro, D. (2018). <i>Principles of Microeconomics</i> (2nd edition).</p>
+      <p><a href="https://openstax.org/details/books/principles-microeconomics-2e">OpenStax: Principles of Microeconomics 2e</a></p>
+      <p>Chapters 10 & 11</p>
+    </div>
+  </div>
+</div>
+
 <style>
   .inline-right-image {
-  float: right;
-  margin-left: 15px;
-  width: 130px; 
-  height: auto;
-  object-fit: contain;
-}
-</style>	
-      </ul>
-      </div>
-	  </div>
+    float: right;
+    margin-left: 15px;
+    width: 130px;
+    height: auto;
+    object-fit: contain;
+  }
+</style>
 <!--next/previous buttons--> 
 <div style="clear:both"></div>
 <button type="button" id="overviewnext" class="btn btn-primary pull-right" onclick="location.href='#activities'">Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></button>
