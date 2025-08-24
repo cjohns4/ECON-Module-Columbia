@@ -93,7 +93,7 @@
       <h4>Readings</h4>
       <p>Greenlaw, S. A. & Shapiro, D. (2018). <i>Principles of Microeconomics</i> (2nd edition).</p>
       <p><a href="https://openstax.org/details/books/principles-microeconomics-2e">OpenStax: Principles of Microeconomics 2e</a></p>
-      <p>Chapters 10 & 11</p>
+      <li>Chapters 10 & 11</li>
     </div>
   </div>
 </div>
