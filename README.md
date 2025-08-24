@@ -115,10 +115,15 @@
       <li>Exercise 3</li>
       </ul>
       <p>&nbsp;</p>
-      <div class="alert alert-info fade in">
-  <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-  <p class="text-center">If you have questions regarding any of these activities, make sure to post those questions in the <strong>Open Forum</strong>.</p>
-</div>  
+     <div class="alert alert-info fade in" role="alert">
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+  <h4 class="text-center">Need Help?</h4>
+  <p class="text-center">
+    If you have questions regarding any of these activities, make sure to post those questions in the <strong>Open Forum</strong>.
+  </p>
+</div>
 <a href="#overview" class="btn btn-primary pull-left" data-toggle="tab" role="tab" aria-label="Go to Overview tab">
   Previous <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
 </a>
