@@ -87,11 +87,15 @@
       </div>
       </div>
 <!--next/previous buttons-->
-<div style="clear:both"></div>
-  <button type="button" class="btn btn-primary pull-right" onclick="$('#mytabs a[href=\'#activities\']').tab('show');">
+<div class="tab-navigation">
+  <div style="clear:both;"></div>
+
+  <button type="button" class="btn btn-primary pull-right"
+          onclick="$('#mytabs a[href=\'#activities\']').tab('show');">
     Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
   </button>
-  <div style="clear:both"></div>
+
+  <div style="clear:both;"></div>
 </div>
 
 <!--END OVERVIEW-->
