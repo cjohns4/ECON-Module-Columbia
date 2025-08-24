@@ -61,7 +61,6 @@
 <div class="tab-content" style="margin-top:15px">
 
 <!-- BEGIN OVERVIEW -->
-<div class="tab-content">
 <div class="tab-pane fade in active" id="overview">
   <h1>Week 5: Monopolistic Competition/Oligopoly and Market Power</h1>
   <div class="banner"></div>
