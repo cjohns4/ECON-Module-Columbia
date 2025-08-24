@@ -117,16 +117,21 @@
   <p class="text-center">If you have questions regarding any of these activities, make sure to post those questions in the <strong>Open Forum</strong>.</p>
 	 </div>
 
- <div style="clear:both"></div>
-  <button type="button" class="btn btn-default pull-left" onclick="$('#mytabs a[href=\'#overview\']').tab('show');">
+<div class="tab-navigation">
+  <div style="clear:both;"></div>
+
+  <button type="button" class="btn btn-default pull-left"
+          onclick="$('#mytabs a[href=\'#overview\']').tab('show');">
     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous
   </button>
-  <button type="button" class="btn btn-primary pull-right" onclick="$('#mytabs a[href=\'#lecture1\']').tab('show');">
+
+  <button type="button" class="btn btn-primary pull-right"
+          onclick="$('#mytabs a[href=\'#lecture1\']').tab('show');">
     Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
   </button>
-  <div style="clear:both"></div>
-</div>
 
+  <div style="clear:both;"></div>
+</div>
 <!--END ACTIVITIES-->
 
 <!--LECTURE SECTIONS: IMPORTANT! DELETE THE TABS YOU DON'T USE OR THEY WILL PRINT JUNK CODE-->
@@ -222,7 +227,7 @@
   .inline-right-image {
   float: right;
   margin-left: 15px;
-  width: 130px; /* adjust as needed */
+  width: 130px; 
   height: auto;
   object-fit: contain;
 }
