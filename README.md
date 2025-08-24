@@ -154,8 +154,12 @@
 	  <h3>Monopolistic Competition (MJM)</h3>
 	  <iframe width="560" height="315" src="https://www.youtube.com/embed/T3F1Vt3IyNc?si=Pl6tzeJFXW15Ruii" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <div style="clear:both"></div>
-<button type="button" id="activitiesprev" class="btn btn-primary pull-left" onclick="location.href='#activities'"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous</button>
-<button type="button" id="activitiesnext" class="btn btn-primary pull-right" onclick="location.href='#lecture2'">Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></button>
+<a href="#activities" class="btn btn-primary pull-left" data-toggle="tab" role="tab" aria-label="Go to Activities tab">
+  Previous <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+</a>
+<a href="#lecture2" class="btn btn-primary pull-right" data-toggle="tab" role="tab" aria-label="Go to Lecture 2 tab">
+  Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+</a>
 <div style="clear:both"></div>
 <!--END LECTURE 1-->
 
@@ -174,8 +178,12 @@
 	  <h3>Oligopoly (MJM)</h3>
 	  <iframe width="560" height="315" src="https://www.youtube.com/embed/ElBF2D7IHAI?si=4fpqepR1LTsW1iCm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <div style="clear:both"></div>
-<button type="button" id="activitiesprev" class="btn btn-primary pull-left" onclick="location.href='#lecture1'"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous</button>
-<button type="button" id="activitiesnext" class="btn btn-primary pull-right" onclick="location.href='#lecture3'">Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></button>
+<a href="#lecture1" class="btn btn-primary pull-left" data-toggle="tab" role="tab" aria-label="Go to Lecture 1 tab">
+  Previous <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+</a>
+<a href="#lecture3" class="btn btn-primary pull-right" data-toggle="tab" role="tab" aria-label="Go to Lecture 3 tab">
+  Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+</a>
 <div style="clear:both"></div>
 <!--END LECTURE 2-->
 
@@ -191,8 +199,12 @@
 <h3>Mergers (MJM)</h3>
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/wlLdX0fs6hE?si=VrTqkQYbxk4LdUsc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <div style="clear:both"></div>
-<button type="button" id="activitiesprev" class="btn btn-primary pull-left" onclick="location.href='#lecture2'"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous</button>
-<button type="button" id="activitiesnext" class="btn btn-primary pull-right" onclick="location.href='#review'">Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></button>
+<a href="#lecture2" class="btn btn-primary pull-left" data-toggle="tab" role="tab" aria-label="Go to Lecture 2 tab">
+  Previous <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+</a>
+<a href="#review" class="btn btn-primary pull-right" data-toggle="tab" role="tab" aria-label="Go to Review tab">
+  Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+</a>
 <div style="clear:both"></div>
 <!--END LECTURE 3-->
 
@@ -211,11 +223,10 @@
         4. What is the difference between a merger and an acquisition?</p>   
   </div>
   <style> .inline-right-image { float: right; margin-left: 15px; width: 130px; height: auto; object-fit: contain; } </style>
-<div style="clear:both"></div>
 <!--ENSURE THIS BUTTON LINKS TO YOUR FINAL LECTURE PAGE-->
-<button type="button" id="lecture7prev" class="btn btn-primary pull-left" onclick="location.href='#lecture3'"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous</button>
-<div style="clear:both"></div>
-</div
+<a href="#lecture3" class="btn btn-primary pull-left" data-toggle="tab" role="tab" aria-label="Go to Lecture 3 tab">
+ Previous <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+</a>
 <!--END REVIEW-->  
 
 </div><!--DO NOT DELETE THIS TAG, IT CLOSES THE CONTAINER DIV!-->
