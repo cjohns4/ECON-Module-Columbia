@@ -130,11 +130,11 @@
   <p class="text-center">If you have questions regarding any of these activities, make sure to post those questions in the <strong>Open Forum</strong>.</p>
 </div> 
  <div style="clear:both"></div>
-<button type="button" id="activitiesprev" class="btn btn-primary pull-left" 
+<button type="button" id="activitiesprev" class="btn btn-primary float-left" 
 	onclick="$('a[href=\'#overview\']').tab('show');" aria-label="Go to Overview tab">Previous <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> 
 </button>
 
-<button type="button" id="activitiesnext" class="btn btn-primary pull-right"
+<button type="button" id="activitiesnext" class="btn btn-primary float-right"
         onclick="$('a[href=\'#lecture1\']').tab('show');" aria-label="Go to Lecture 1 tab">Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 </button>
 <div style="clear:both;"></div>
