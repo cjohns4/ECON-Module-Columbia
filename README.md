@@ -239,7 +239,7 @@
 </style>
 <div style="clear:both"></div>
 <!--ENSURE THIS BUTTON LINKS TO YOUR FINAL LECTURE PAGE-->
-<button type="button" class="btn btn-primary pull-left" onclick="$('#mytabs a[href=\'#lecture3\']').tab('show');"">Previous <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> </button>
+<button type="button" class="btn btn-primary pull-left" onclick="$('#mytabs a[href=\'#lecture3\']').tab('show');">Previous <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> </button>
 <div style="clear:both"></div>
 
 <!--END REVIEW-->  
