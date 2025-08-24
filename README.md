@@ -37,26 +37,22 @@
 <div class="container" style="padding-bottom:50px; padding-top:20px">
 
  <!--navigation tabs-->
-  <ul class="nav nav-tabs" id="mytabs">
-    <li class="active"><a data-toggle="tab" href="#overview">Overview</a></li>
-    <li><a data-toggle="tab" href="#activities">Activities</a></li>
+<ul class="nav nav-tabs">
+  <li class="active"><a href="#overview" data-toggle="tab">Overview</a></li>
+  <li><a href="#activities" data-toggle="tab">Activities</a></li>
 
-<!--begin dropdown lecture menu-->
-     <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-  Lecture <span class="caret"></span>
-</a>
-          <ul class="dropdown-menu">
-<!--Delete from 'begin dropdown lecture menu' to here to convert to normal tabs. -->
-<!--Add or delete lecture links as needed.-->
-<!--Ensure final lecture's 'next' button has the id "toreview".-->
-<!--Ensure the button from review back to lecture points to the right lecture using button ids (see tabbedmodule.css for reference)-->
-            <li><a data-toggle="tab" href="#lecture1">Lecture 1</a></li>
-            <li><a data-toggle="tab" href="#lecture2">Lecture 2</a></li>
-            <li><a data-toggle="tab" href="#lecture3">Lecture 3</a></li>
-			     
-    	</ul></li>
-<!--end dropdown lecture menu-->        
+  <!--begin dropdown lecture menu-->
+  <li class="dropdown">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+      Lecture <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu">
+      <li><a data-toggle="tab" href="#lecture1">Lecture 1</a></li>
+      <li><a data-toggle="tab" href="#lecture2">Lecture 2</a></li>
+      <li><a data-toggle="tab" href="#lecture3">Lecture 3</a></li>
+    </ul>
+  </li>
+  <!--end dropdown lecture menu-->  
  <li><a data-toggle="tab" href="#review">Review</a></li>	
   </ul>
 <!--end navigation tabs-->
