@@ -105,7 +105,7 @@
 <!-- next/previous buttons -->
 <div style="clear:both;"></div>
 <button type="button" id="overviewnext" class="btn btn-primary pull-right"
-        onclick="$('a[href=\'#activities\']').tab('show');" aria-label="Go to Activities tab">Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        onclick="location.href='#activities'" aria-label="Go to Activities tab">Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 </button>
 <div style="clear:both;"></div>
 <!-- END OVERVIEW -->
