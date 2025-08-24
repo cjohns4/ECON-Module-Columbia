@@ -60,8 +60,9 @@
 <!--begin page content-->
 <div class="tab-content" style="margin-top:15px">
 
-<!-- BEGIN OVERVIEW -->
+
 <div class="tab-pane fade in active" id="overview">
+<!-- BEGIN OVERVIEW -->	
   <h1>Week 5: Monopolistic Competition/Oligopoly and Market Power</h1>
   <div class="banner"></div>
   <h3>Understanding Market Structures and Consumer Behavior</h3>
@@ -103,13 +104,14 @@
   }
 </style>
 <!-- next/previous buttons -->
-<button type="button" id="overviewnext" class="btn btn-primary pull-right"
-        onclick="location.href='#activities'" aria-label="Go to Activities tab">Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-</button>
+<!-- Next button styled as a Bootstrap button -->
+<a href="#activities" class="btn btn-primary pull-right" data-toggle="tab" role="tab" aria-label="Go to Activities tab">
+  Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+</a>
 <!-- END OVERVIEW -->
 
-<!--BEGIN ACTIVITIES-->
 <div class="tab-pane fade" id="activities">
+<!--BEGIN ACTIVITIES-->
       <h2>Activities</h2>
       <h3 class="activities"><i class="fa fa-book" aria-hidden="true"></i> Learning Resources</h3>
       <ul>
@@ -132,14 +134,12 @@
       onclick="$('a[href=\'#overview\']').tab('show');" aria-label="Go to Overview tab">
       <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous
     </button>
-
     <button type="button" id="activitiesnext" class="btn btn-primary pull-right"
       onclick="$('a[href=\'#lecture1\']').tab('show');" aria-label="Go to Lecture 1 tab">
       Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
     </button>
     <div style="clear:both;"></div>
-  </div>
-<!--END ACTIVITIES-->
+ <!--END ACTIVITIES-->
 
 <!--LECTURE SECTIONS: IMPORTANT! DELETE THE TABS YOU DON'T USE OR THEY WILL PRINT JUNK CODE-->
 
