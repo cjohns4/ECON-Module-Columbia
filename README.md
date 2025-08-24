@@ -132,6 +132,7 @@
   Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 </a>
 <div style="clear:both"></div>
+</div>
  <!--END ACTIVITIES-->
 
 <!--LECTURE SECTIONS: IMPORTANT! DELETE THE TABS YOU DON'T USE OR THEY WILL PRINT JUNK CODE-->
