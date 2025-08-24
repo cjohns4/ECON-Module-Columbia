@@ -205,15 +205,6 @@
 	    3. What is the prisoner’s dilemma, and how does it relate to oligopoly behavior?<br>
         4. What is the difference between a merger and an acquisition?</p>   
   </div>
-<style>
-  .inline-right-image {
-  float: right;
-  margin-left: 15px;
-  width: 130px; 
-  height: auto;
-  object-fit: contain;
-}
-</style>
 <div style="clear:both"></div>
 <!--ENSURE THIS BUTTON LINKS TO YOUR FINAL LECTURE PAGE-->
 <button type="button" id="lecture7prev" class="btn btn-primary pull-left" onclick="location.href='#lecture3'"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous</button>
