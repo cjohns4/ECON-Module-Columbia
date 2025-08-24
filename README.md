@@ -91,8 +91,9 @@
       </div>
 <!--next/previous buttons-->
 <div style="clear:both"></div>
-<button class="btn btn-primary" onclick="location.href='#activities'; $('a[href=\'#activities\']').tab('show');">Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></button>
+<button type="button" id="overviewnext" class="btn btn-primary pull-right" onclick="location.href='#activities'">Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></button>
 <div style="clear:both"></div>
+</div>
 <!--END OVERVIEW-->
 
 <!--BEGIN ACTIVITIES-->
