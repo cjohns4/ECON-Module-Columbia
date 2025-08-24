@@ -43,7 +43,9 @@
 
 <!--begin dropdown lecture menu-->
      <li class="dropdown">
-          <a href="#lecture" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Lecture <span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+  Lecture <span class="caret"></span>
+</a>
           <ul class="dropdown-menu">
 <!--Delete from 'begin dropdown lecture menu' to here to convert to normal tabs. -->
 <!--Add or delete lecture links as needed.-->
