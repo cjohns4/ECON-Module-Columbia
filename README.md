@@ -153,14 +153,20 @@
 	  <h3>Monopolistic Competition (MJM)</h3>
 	  <iframe width="560" height="315" src="https://www.youtube.com/embed/T3F1Vt3IyNc?si=Pl6tzeJFXW15Ruii" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
    
-  <div style="clear:both"></div>
-  <button type="button" class="btn btn-default pull-left" onclick="$('#mytabs a[href=\'#activities\']').tab('show');">
-    Previous <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> 
+<div style="clear:both;"></div>
+
+  <button type="button" class="btn btn-default pull-left"
+          onclick="$('#mytabs a[href=\'#activities\']').tab('show');">
+    Previous <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
   </button>
-  <button type="button" class="btn btn-primary pull-right" onclick="$('#mytabs a[href=\'#lecture2\']').tab('show');">
+
+  <button type="button" class="btn btn-primary pull-right"
+          onclick="$('#mytabs a[href=\'#lecture2\']').tab('show');">
     Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
   </button>
-  <div style="clear:both"></div>
+
+  <div style="clear:both;"></div>
+</div>
 
 <!--END LECTURE 1-->
 
