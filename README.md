@@ -166,7 +166,6 @@
   </button>
 
   <div style="clear:both;"></div>
-</div>
 
 <!--END LECTURE 1-->
 
