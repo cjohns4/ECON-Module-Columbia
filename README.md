@@ -155,7 +155,6 @@
 <button type="button" id="lecture1prev" class="btn btn-primary pull-left" onclick="location.href='#activities'"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous</button>
 <button type="button" id="lecture1next" class="btn btn-primary pull-right" onclick="location.href='#lecture2'">Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></button>
 <div style="clear:both"></div>
-</div>
 <!--END LECTURE 1-->
 
 <!--BEGIN LECTURE 2-->    
@@ -176,7 +175,6 @@
 <button type="button" id="lecture2prev" class="btn btn-primary pull-left" onclick="location.href='#lecture1'"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous</button>
 <button type="button" id="lecture2next" class="btn btn-primary pull-right" onclick="location.href='#lecture3'">Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></button>
 <div style="clear:both"></div>
-</div>
 <!--END LECTURE 2-->
 
 <!--BEGIN LECTURE 3-->
@@ -194,7 +192,6 @@
 <button type="button" id="lecture3prev" class="btn btn-primary pull-left" onclick="location.href='#lecture2'"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous</button>
 <button type="button" id="lecture3next" class="btn btn-primary pull-right" onclick="location.href='#review'">Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></button>
 <div style="clear:both"></div>
-</div>
 <!--END LECTURE 3-->
 
 <!--BEGIN REVIEW-->
@@ -215,7 +212,6 @@
 <!--ENSURE THIS BUTTON LINKS TO YOUR FINAL LECTURE PAGE-->
 <button type="button" id="reviewprev" class="btn btn-primary pull-left" onclick="location.href='#lecture3'"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous</button>
 <div style="clear:both"></div>
-</div>
 <!--END REVIEW-->  
 
 </div><!--DO NOT DELETE THIS TAG, IT CLOSES THE CONTAINER DIV!-->
