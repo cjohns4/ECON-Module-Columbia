@@ -98,7 +98,7 @@
 <a href="#activities" class="btn btn-primary pull-right" data-toggle="tab" role="tab" aria-label="Go to Activities tab">
   Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 </a>
-
+</div>
 <!-- END OVERVIEW -->
 
 <div class="tab-pane fade" id="activities">
@@ -133,6 +133,7 @@
 <a href="#lecture2" class="btn btn-primary pull-right" data-toggle="tab" role="tab" aria-label="Go to Lecture 2 tab">
   Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 </a>
+</div>
  <!--END ACTIVITIES-->
 
 <!--LECTURE SECTIONS: IMPORTANT! DELETE THE TABS YOU DON'T USE OR THEY WILL PRINT JUNK CODE-->
@@ -160,7 +161,6 @@
 <a href="#lecture2" class="btn btn-primary pull-right" data-toggle="tab" role="tab" aria-label="Go to Lecture 2 tab">
   Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 </a>
-</div>
 <!--END LECTURE 1-->
 
 <!--BEGIN LECTURE 2-->    
@@ -183,7 +183,6 @@
 <a href="#lecture3" class="btn btn-primary pull-right" data-toggle="tab" role="tab" aria-label="Go to Lecture 3 tab">
   Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 </a>
-</div>
 <!--END LECTURE 2-->
 
 <!--BEGIN LECTURE 3-->
@@ -203,7 +202,6 @@
 <a href="#review" class="btn btn-primary pull-right" data-toggle="tab" role="tab" aria-label="Go to Review tab">
   Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 </a>
-	</div>
 <!--END LECTURE 3-->
 
 <!--BEGIN REVIEW-->
