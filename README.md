@@ -92,7 +92,7 @@
   	  </ul>
     </div>
   </div>
-
+</div>
 <style> .inline-right-image { float: right; margin-left: 15px; width: 130px; height: auto; object-fit: contain; } </style>
 <!-- next/previous buttons -->
 <a href="#activities" class="btn btn-primary pull-right" data-toggle="tab" role="tab" aria-label="Go to Activities tab">
