@@ -225,7 +225,6 @@
 <a href="#lecture3" class="btn btn-primary pull-left" data-toggle="tab" role="tab" aria-label="Go to Lecture 3 tab">
  Previous <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
 </a>
-</div>
 <!--END REVIEW-->  
 
 </div><!--DO NOT DELETE THIS TAG, IT CLOSES THE CONTAINER DIV!-->
