@@ -194,8 +194,8 @@
 
 <div id="review" class="tab-pane fade">
       <h2>Review</h2>
-	  <p><img src="img/smallimage.png" 
-         alt="Knowledge Check header with checkmark icon on light gray background" 
+	  <p><img src="img/cartoonpersondress.png" 
+         alt="Cartoon illustration of a woman wearing a green outfit, standing and holding an open book in front of her." 
          class="inline-right-image"> 
         1. What distinguishes monopolistic competition from perfect competition?<br>
 	    2. Why is a monopolistically competitive firm not allocatively efficient?<br>
