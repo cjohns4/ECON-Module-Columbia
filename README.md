@@ -128,7 +128,6 @@
 <a href="#overview" class="btn btn-primary pull-left" data-toggle="tab" role="tab" aria-label="Go to Overview tab">
   Previous <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
 </a>
-</div>
 <!-- Next Button -->
 <a href="#lecture2" class="btn btn-primary pull-right" data-toggle="tab" role="tab" aria-label="Go to Lecture 2 tab">
   Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
@@ -161,6 +160,7 @@
 <a href="#lecture2" class="btn btn-primary pull-right" data-toggle="tab" role="tab" aria-label="Go to Lecture 2 tab">
   Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 </a>
+</div>
 <!--END LECTURE 1-->
 
 <!--BEGIN LECTURE 2-->    
@@ -183,6 +183,7 @@
 <a href="#lecture3" class="btn btn-primary pull-right" data-toggle="tab" role="tab" aria-label="Go to Lecture 3 tab">
   Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 </a>
+</div>
 <!--END LECTURE 2-->
 
 <!--BEGIN LECTURE 3-->
@@ -202,6 +203,7 @@
 <a href="#review" class="btn btn-primary pull-right" data-toggle="tab" role="tab" aria-label="Go to Review tab">
   Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 </a>
+</div>
 <!--END LECTURE 3-->
 
 <!--BEGIN REVIEW-->
@@ -223,6 +225,7 @@
 <a href="#lecture3" class="btn btn-primary pull-left" data-toggle="tab" role="tab" aria-label="Go to Lecture 3 tab">
  Previous <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
 </a>
+</div>
 <!--END REVIEW-->  
 
 </div><!--DO NOT DELETE THIS TAG, IT CLOSES THE CONTAINER DIV!-->
