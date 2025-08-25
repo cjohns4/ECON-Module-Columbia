@@ -219,7 +219,9 @@
 <!--next/previous buttons-->
 <div style="clear:both"></div>
 <!--ENSURE THIS BUTTON LINKS TO YOUR FINAL LECTURE PAGE-->
-<button type="button" id="lecture7prev" class="btn btn-primary pull-left" onclick="location.href='#top'"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous</button>
+<button type="button" id="reviewprev" class="btn btn-primary pull-left" onclick="$('a[href=\'#lecture3\']').tab('show')">
+  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous
+</button>
 <div style="clear:both"></div>
 </div>
 <!--END REVIEW-->  
