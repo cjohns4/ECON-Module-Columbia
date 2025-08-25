@@ -183,7 +183,7 @@
 <a href="#lecture3" class="btn btn-primary pull-right" data-toggle="tab" role="tab" aria-label="Go to Lecture 3 tab">
   Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 </a>
-</div>
+
 <!--END LECTURE 2-->
 
 <!--BEGIN LECTURE 3-->
