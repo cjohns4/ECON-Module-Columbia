@@ -244,16 +244,16 @@
 	    2. Why is a monopolistically competitive firm not allocatively efficient?<br>
 	    3. What is the prisoner’s dilemma, and how does it relate to oligopoly behavior?<br>
         4. What is the difference between a merger and an acquisition?</p>
-		<style>
-  .inline-right-image {
-    float: right;
-    margin-left: 15px;
-    max-width: 110px;
-    height: auto;
-    object-fit: contain;
-  }
-</style>
-      <p>&nbsp;</p>
+ <style> 
+	.inline-right-image { 
+		float: right;
+		margin-left: 15px; 
+		width: 130px;
+		height: auto; 
+		object-fit: contain;
+	} 
+ </style>		
+ <p>&nbsp;</p>
 <!--next/previous buttons-->
 <div style="clear:both"></div>
 <!--ENSURE THIS BUTTON LINKS TO YOUR FINAL LECTURE PAGE-->
