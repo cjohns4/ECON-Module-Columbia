@@ -130,7 +130,6 @@
 <button type="button" id="activitiesprev" class="btn btn-primary pull-left" onclick="location.href='#overview'"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous</button>
 <button type="button" id="activitiesnext" class="btn btn-primary pull-right" onclick="location.href='#lecture1'">Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></button>
 <div style="clear:both"></div>
-</div>
 <!--END ACTIVITIES-->
 
 <!--LECTURE SECTIONS: IMPORTANT! DELETE THE TABS YOU DON'T USE OR THEY WILL PRINT JUNK CODE-->
@@ -152,12 +151,11 @@
 	  <p>Unlike the perfectly competitive firm, monopolistically competitive firms are neither productively or allocatively efficient.</p>
 	  <h3>Monopolistic Competition (MJM)</h3>
 	  <iframe width="560" height="315" src="https://www.youtube.com/embed/T3F1Vt3IyNc?si=Pl6tzeJFXW15Ruii" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<a href="#activities" class="btn btn-primary pull-left" data-toggle="tab" role="tab" aria-label="Go to Activities tab">
-  Previous <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-</a>
-<a href="#lecture2" class="btn btn-primary pull-right" data-toggle="tab" role="tab" aria-label="Go to Lecture 2 tab">
-  Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-</a>
+<div style="clear:both"></div>
+<button type="button" id="lecture1prev" class="btn btn-primary pull-left" onclick="location.href='#activities'"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous</button>
+<button type="button" id="lecture1next" class="btn btn-primary pull-right" onclick="location.href='#lecture2'">Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></button>
+<div style="clear:both"></div>
+</div>
 <!--END LECTURE 1-->
 
 <!--BEGIN LECTURE 2-->    
@@ -174,12 +172,11 @@
       <p>As one can imagine, based on these models, oligopolies are neither allocative or productively efficient.</p>
 	  <h3>Oligopoly (MJM)</h3>
 	  <iframe width="560" height="315" src="https://www.youtube.com/embed/ElBF2D7IHAI?si=4fpqepR1LTsW1iCm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<a href="#lecture1" class="btn btn-primary pull-left" data-toggle="tab" role="tab" aria-label="Go to Lecture 1 tab">
-  Previous <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-</a>
-<a href="#lecture3" class="btn btn-primary pull-right" data-toggle="tab" role="tab" aria-label="Go to Lecture 3 tab">
-  Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-</a>
+ <div style="clear:both"></div>
+<button type="button" id="lecture2prev" class="btn btn-primary pull-left" onclick="location.href='#lecture1'"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous</button>
+<button type="button" id="lecture2next" class="btn btn-primary pull-right" onclick="location.href='#lecture3'">Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></button>
+<div style="clear:both"></div>
+</div>
 <!--END LECTURE 2-->
 
 <!--BEGIN LECTURE 3-->
@@ -193,12 +190,11 @@
     <p>In certain situations, some industries lead themselves to monopolistic behavior.  Those firms are called natural monopolies.  These occur when one firm can continually produce and sell more output at a lower average total cost then having two or more firms.  These firms are generally utility companies, such as electric companies.  To soften the negative impact of these monopolies, they are usually price regulated by a state regulatory board.</p>
 <h3>Mergers (MJM)</h3>
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/wlLdX0fs6hE?si=VrTqkQYbxk4LdUsc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<a href="#lecture2" class="btn btn-primary pull-left" data-toggle="tab" role="tab" aria-label="Go to Lecture 2 tab">
-  Previous <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-</a>
-<a href="#review" class="btn btn-primary pull-right" data-toggle="tab" role="tab" aria-label="Go to Review tab">
-  Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-</a>
+<div style="clear:both"></div>
+<button type="button" id="lecture3prev" class="btn btn-primary pull-left" onclick="location.href='#lecture2'"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous</button>
+<button type="button" id="lecture3next" class="btn btn-primary pull-right" onclick="location.href='#review'">Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></button>
+<div style="clear:both"></div>
+</div>
 <!--END LECTURE 3-->
 
 <!--BEGIN REVIEW-->
@@ -217,9 +213,9 @@
   </div>
   <style> .inline-right-image { float: right; margin-left: 15px; width: 130px; height: auto; object-fit: contain; } </style>
 <!--ENSURE THIS BUTTON LINKS TO YOUR FINAL LECTURE PAGE-->
-<a href="#lecture3" class="btn btn-primary pull-left" data-toggle="tab" role="tab" aria-label="Go to Lecture 3 tab">
- Previous <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-</a>
+<button type="button" id="reviewprev" class="btn btn-primary pull-left" onclick="location.href='#lecture3'"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous</button>
+<div style="clear:both"></div>
+</div>
 <!--END REVIEW-->  
 
 </div><!--DO NOT DELETE THIS TAG, IT CLOSES THE CONTAINER DIV!-->
