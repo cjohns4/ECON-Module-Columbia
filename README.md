@@ -132,7 +132,7 @@
   Previous <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
 </a>
 <!-- Next Button -->
-<a href="#lecture2" class="btn btn-primary pull-right" data-toggle="tab" role="tab" aria-label="Go to Lecture 2 tab">
+<a href="#lecture1" class="btn btn-primary pull-right" data-toggle="tab" role="tab" aria-label="Go to Lecture 1 tab">
   Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 </a>
 </div>
