@@ -67,9 +67,12 @@
 
 <!--BEGIN OVERVIEW-->
 <div id="overview" class="tab-pane fade in active">
-      <h1>Week Five</h1>
-      <h2>Subheading</h2>
-      <p>Lorem ipsum dolor sit amet, ea luptatum assueverit pri, ex mollis epicuri accusata est. Eos tamquam delenit albucius ad, semper copiosae evertitur mei ad, ad vel harum efficiendi. Mea id nullam sanctus. Pri duis ferri ne. Harum tollit est et, simul ubique laboramus ne vel, iudico apeirian aliquando est et.</p>
+      <h1>Week Five: Monopolistic Competition/Oligopoly and Market Power</h1>
+	  <div class="banner"></div>
+      <h2>Understanding Market Structures and Consumer Behavior</h2>
+      <p>Last week, we delved into the world of relatively non-existent market structures. This week, we jump headlong into the two           most prevalent market structures in modern economies: monopolistic competition and oligopolies.</p>
+      <p>These two structures have similarities and can be difficult to distinguish. One firm may sell various brands of a product,           creating the illusion of choice while still capturing all   consumer spending.</p>
+      <p>As we discussed, monopolies are not very consumer-friendly. Anytime there’s less competition, consumers are disadvantaged. To        counter this, governments enact laws to reduce monopoly power as industries consolidate.</p>
       <br>
       <div class="panel panel-default">
       <div class="panel-heading"><h3>Weekly Objectives</h3></div>
