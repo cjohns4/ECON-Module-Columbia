@@ -53,10 +53,7 @@
             <li><a data-toggle="tab" href="#lecture1">Lecture 1</a></li>
             <li><a data-toggle="tab" href="#lecture2">Lecture 2</a></li>
             <li><a data-toggle="tab" href="#lecture3">Lecture 3</a></li>
-            <li><a data-toggle="tab" href="#lecture4">Lecture 4</a></li>
-            <li><a data-toggle="tab" href="#lecture5">Lecture 5</a></li>
-            <li><a data-toggle="tab" href="#lecture6">Lecture 6</a></li>
-    	</ul></li>
+            </ul></li>
 <!--end dropdown lecture menu-->        
     <li><a data-toggle="tab" href="#review">Review</a></li>
 	</ul>
