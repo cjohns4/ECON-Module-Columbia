@@ -237,11 +237,20 @@
 
 <div id="review" class="tab-pane fade">
       <h2>Review</h2>
-      1. What distinguishes monopolistic competition from perfect competition?<br>
+	  <p><img src="img/smallimage.png" 
+         alt="Knowledge Check header with checkmark icon on light gray background" 
+         class="inline-right-image"> 
+        1. What distinguishes monopolistic competition from perfect competition?<br>
 	    2. Why is a monopolistically competitive firm not allocatively efficient?<br>
 	    3. What is the prisoner’s dilemma, and how does it relate to oligopoly behavior?<br>
-        4. What is the difference between a merger and an acquisition?<br>
-      <p>Lorem ipsum dolor sit amet, ea luptatum assueverit pri, ex mollis epicuri accusata est. Eos tamquam delenit albucius ad, semper copiosae evertitur mei ad, ad vel harum efficiendi. Mea id nullam sanctus. Pri duis ferri ne. Harum tollit est et, simul ubique laboramus ne vel, iudico apeirian aliquando est et.</p>
+        4. What is the difference between a merger and an acquisition?</p>
+		.inline-right-image {
+ 		 float: right;
+ 		 margin-left: 15px;
+ 		 max-width: 130px;
+ 		 height: auto;
+		  object-fit: contain;
+}
       <p>&nbsp;</p>
 <!--next/previous buttons-->
 <div style="clear:both"></div>
