@@ -53,7 +53,10 @@
             <li><a data-toggle="tab" href="#lecture1">Lecture 1</a></li>
             <li><a data-toggle="tab" href="#lecture2">Lecture 2</a></li>
             <li><a data-toggle="tab" href="#lecture3">Lecture 3</a></li>
-            </ul></li>
+            <li><a data-toggle="tab" href="#lecture4">Lecture 4</a></li>
+            <li><a data-toggle="tab" href="#lecture5">Lecture 5</a></li>
+            <li><a data-toggle="tab" href="#lecture6">Lecture 6</a></li>
+    	</ul></li>
 <!--end dropdown lecture menu-->        
     <li><a data-toggle="tab" href="#review">Review</a></li>
 	</ul>
@@ -189,6 +192,46 @@
 </div>
 <!--END LECTURE 3-->
 
+<!--BEGIN LECTURE 4-->
+<div id="lecture4" class="tab-pane fade">
+      <h2>Lecture 4</h2>
+      <h3>Subheading [optional]</h3>
+      <p>Lorem ipsum dolor sit amet, ea luptatum assueverit pri, ex mollis epicuri accusata est. Eos tamquam delenit albucius ad, semper copiosae evertitur mei ad, ad vel harum efficiendi. Mea id nullam sanctus. Pri duis ferri ne. Harum tollit est et, simul ubique laboramus ne vel, iudico apeirian aliquando est et.</p>
+<!--next/previous buttons-->
+<div style="clear:both"></div>
+<button type="button" id="lecture4prev" class="btn btn-primary pull-left" onclick="location.href='#top'"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous</button>
+<button type="button" id="lecture4next" class="btn btn-primary pull-right" onclick="location.href='#top'">Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></button>
+<div style="clear:both"></div>
+</div>
+<!--END LECTURE 4-->
+
+<!--BEGIN LECTURE 5-->
+<div id="lecture5" class="tab-pane fade">
+      <h2>Lecture 5</h2>
+      <h3>Subheading [optional]</h3>
+	  <p>Lorem ipsum dolor sit amet, ea luptatum assueverit pri, ex mollis epicuri accusata est. Eos tamquam delenit albucius ad, semper copiosae evertitur mei ad, ad vel harum efficiendi. Mea id nullam sanctus. Pri duis ferri ne. Harum tollit est et, simul ubique laboramus ne vel, iudico apeirian aliquando est et.</p>
+<!--next/previous buttons-->
+<div style="clear:both"></div>
+<button type="button" id="lecture5prev" class="btn btn-primary pull-left" onclick="location.href='#top'"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous</button>
+<button type="button" id="lecture5next" class="btn btn-primary pull-right" onclick="location.href='#top'">Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></button>
+<div style="clear:both"></div>
+</div>
+<!--END LECTURE 5-->
+
+<!--BEGIN LECTURE 6-->
+<div id="lecture6" class="tab-pane fade">
+      <h2>Lecture 6</h2>
+      <h3>Subheading [optional]</h3>
+      <p>Lorem ipsum dolor sit amet, ea luptatum assueverit pri, ex mollis epicuri accusata est. Eos tamquam delenit albucius ad, semper copiosae evertitur mei ad, ad vel harum efficiendi. Mea id nullam sanctus. Pri duis ferri ne. Harum tollit est et, simul ubique laboramus ne vel, iudico apeirian aliquando est et.</p>
+<!--next/previous buttons-->
+<div style="clear:both"></div>
+<button type="button" id="lecture6prev" class="btn btn-primary pull-left" onclick="location.href='#top'"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous</button>
+<!--"TOREVIEW" BUTTON-->
+<button type="button" id="toreview" class="btn btn-primary pull-right" onclick="location.href='#top'">Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></button>
+<div style="clear:both"></div>
+</div>
+<!--END LECTURE 6-->
+
 <!--BEGIN REVIEW-->
 <!--IMPORTANT: questions and answers can be edited in the file "js/slickQuiz-config-1.js"-->
 
@@ -205,7 +248,7 @@
 	.inline-right-image { 
 		float: right;
 		margin-left: 15px; 
-		width: 160px;
+		width: 150px;
 		height: auto; 
 		object-fit: contain;
 	} 
