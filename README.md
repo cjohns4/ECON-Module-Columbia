@@ -34,7 +34,7 @@
 <script src="js/slickQuiz.js"></script>
 <script>
   $(document).ready(function () {
-    $('a.tab-nav-btn[data-toggle="tab"]').on('click', function (e) {
+    $('a.tab-nav-btn').on('click', function (e) {
       e.preventDefault();
       var target = $(this).attr('href');
       $('.nav-tabs a[href="' + target + '"]').tab('show');
@@ -136,11 +136,11 @@
       If you have questions regarding any of these activities, make sure to post those questions in the <strong>Open Forum</strong>.
     </p>
   </div>
-<a href="#overview" class="btn btn-primary pull-left tab-nav-btn" data-toggle="tab" role="tab">
+  <a href="#overview" class="btn btn-primary pull-left tab-nav-btn" role="tab">
   <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous
 </a>
 
-<a href="#lecture1" class="btn btn-primary pull-right tab-nav-btn" data-toggle="tab" role="tab">
+<a href="#lecture1" class="btn btn-primary pull-right tab-nav-btn" role="tab">
   Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 </a>
 <!--END ACTIVITIES-->
