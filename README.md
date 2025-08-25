@@ -32,15 +32,7 @@
 <script src="js/tabbedmodule.js"></script>
 <script src="js/slickQuiz-config-1.js"></script>
 <script src="js/slickQuiz.js"></script>
-<script>
-  $(document).ready(function () {
-    $('a.tab-nav-btn').on('click', function (e) {
-      e.preventDefault();
-      var target = $(this).attr('href');
-      $('.nav-tabs a[href="' + target + '"]').tab('show');
-    });
-  });
-</script>
+
 </head>
 
 <body id="top">
