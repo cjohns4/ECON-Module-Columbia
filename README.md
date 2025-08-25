@@ -137,7 +137,7 @@
       <p>Because of this, firms in the monopolistically competitive earn can earn a very slight economic profit even in the long-run.  If firms are earning economic profit in the short-        run, more firms will enter the market, that will create downward pressure on profits.  One way that firms try to maintain those economic profits is to continually advertise to           keep customers coming back and profits rolling in.</p>
 	  <p>Unlike the perfectly competitive firm, monopolistically competitive firms are neither productively or allocatively efficient.</p>
 	<h4>Monopolistic Competition (MJM)</h4>
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/T3F1Vt3IyNc?si=Pl6tzeJFXW15Ruii" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+	<iframe src="https://www.youtube.com/embed/T3F1Vt3IyNc?si=Pl6tzeJFXW15Ruii" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" style="margin-bottom: 20px;" ></iframe>
 <!--next/previous buttons-->
 <div style="clear:both"></div>
 <button type="button" id="lecture1prev" class="btn btn-primary pull-left" onclick="location.href='#top'"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous</button>
