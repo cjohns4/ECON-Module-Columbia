@@ -102,36 +102,44 @@
 </a>
 <!-- END OVERVIEW -->
 
-<div class="tab-pane fade" id="activities">
 <!--BEGIN ACTIVITIES-->
-      <h2>Activities</h2>
-      <h3 class="activities"><i class="fa fa-book" aria-hidden="true"></i> Learning Resources</h3>
-      <ul>
-      <li>Chapter 10</li>
-	  <li>Chapter 11</li>
-      </ul>
+    <div class="tab-pane fade" id="activities" role="tabpanel" aria-labelledby="activities-tab">
+  <h2>Activities</h2>
 
-      <h3 class="activities"><i class="fa fa-check-square-o" aria-hidden="true"></i> Required Activities</h3>
-      <ul>
-      <li>Discussion 5</li>
-      <li>Exercise 3</li>
-      </ul>
-      <p>&nbsp;</p>
-     <div class="alert alert-info fade in" role="alert">
-  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-    <span aria-hidden="true">&times;</span>
-  </button>
-  <h4 class="text-center">Need Help?</h4>
-  <p class="text-center">
-    If you have questions regarding any of these activities, make sure to post those questions in the <strong>Open Forum</strong>.
-  </p>
+  <h3 class="activities"><i class="fa fa-book" aria-hidden="true"></i> Learning Resources</h3>
+  <ul>
+    <li>Chapter 10</li>
+    <li>Chapter 11</li>
+  </ul>
+
+  <h3 class="activities"><i class="fa fa-check-square-o" aria-hidden="true"></i> Required Activities</h3>
+  <ul>
+    <li>Discussion 5</li>
+    <li>Exercise 3</li>
+  </ul>
+
+  <div class="alert alert-info fade in" role="alert">
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+    <h4 class="text-center">Need Help?</h4>
+    <p class="text-center">
+      If you have questions regarding any of these activities, make sure to post those questions in the <strong>Open Forum</strong>.
+    </p>
   </div>
-<a href="#overview" class="btn btn-primary pull-left" data-toggle="tab" role="tab" aria-label="Go to Overview tab">
-  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous
-</a>
-<a href="#lecture1" class="btn btn-primary pull-right" data-toggle="tab" role="tab" aria-label="Go to Lecture 1 tab">
-  Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-</a>
+
+  <div class="clearfix"></div>
+
+  <a href="#overview" class="btn btn-primary pull-left" data-toggle="tab" role="tab" aria-label="Go to Overview tab">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous
+  </a>
+
+  <a href="#lecture1" class="btn btn-primary pull-right" data-toggle="tab" role="tab" aria-label="Go to Lecture 1 tab">
+    Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+  </a>
+
+  <div class="clearfix"></div>
+</div>
 <!--END ACTIVITIES-->
 
 <!--LECTURE SECTIONS: IMPORTANT! DELETE THE TABS YOU DON'T USE OR THEY WILL PRINT JUNK CODE-->
