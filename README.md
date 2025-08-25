@@ -20,17 +20,15 @@
 <script src="js/tabbedmodule.js"></script>
 <script src="js/slickQuiz-config-1.js"></script>
 <script src="js/slickQuiz.js"></script>
- <style>
-.banner {
+  <style>
+.banner-img {
   width: 100%;
-  height: 120px; 
-  background-image: url('img/jpeg.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  margin-bottom: 20px; 
+  height: 120px;
+  object-fit: cover;
+  object-position: center;
+  margin-bottom: 20px;
 }
-  </style>
+ </style>
     
 </head>
 
@@ -66,7 +64,7 @@
 <!--BEGIN OVERVIEW-->
 <div id="overview" class="tab-pane fade in active">
       <h1>Week Five: Monopolistic Competition/Oligopoly and Market Power</h1>
-	  <div class="banner"></div>
+	  <img src="img/jpeg.jpg" alt="Banner image for Columbia ECON module, featuring abstract blue and green shapes with the Columbia University logo" class="banner-img">
       <h2>Understanding Market Structures and Consumer Behavior</h2>
       <p>Last week, we delved into the world of relatively non-existent market structures. This week, we jump headlong into the two           most prevalent market structures in modern economies: monopolistic competition and oligopolies.</p>
       <p>These two structures have similarities and can be difficult to distinguish. One firm may sell various brands of a product,           creating the illusion of choice while still capturing all   consumer spending.</p>
@@ -96,6 +94,7 @@
 <!--BEGIN ACTIVITIES-->
 <div id="activities" class="tab-pane fade">
       <h2>Activities</h2>
+	  <img src="img/jpeg.jpg" alt="Banner image for Columbia ECON module, featuring abstract blue and green shapes with the Columbia University logo" class="banner-img">	
       <h3 class="activities"><i class="fa fa-book" aria-hidden="true"></i> Learning Resources</h3>
       <ul>
       <li>Chapter 10</li>
@@ -125,7 +124,7 @@
 <!--BEGIN LECTURE 1-->
 <div id="lecture1" class="tab-pane fade">
 	  <h2>Lecture 1</h2>
-	  <div class="banner"></div>
+	  <img src="img/jpeg.jpg" alt="Banner image for Columbia ECON module, featuring abstract blue and green shapes with the Columbia University logo" class="banner-img">
       <h3>Monopolistic Competition</h3>
       <p>There are three main characteristics of a monopolistically competitive market.  There are large amounts of buyers and sellers, there is relative ease of entry and exit into the market, and there are heterogenous 					products. As you can see, the characteristics of the monopolistically competitive market and the perfectly competitive market are very similar. The only major difference is that the products are heterogenous product rather 			than the homogenous product.</p>
 	  <p>Let’s look at an example.  The fast food industry is a very good example of a monopolistically competitive market.  There are many different places in most areas where one can 		go get a hamburger.  However, there is     	  only one place to get a Big Mac.  There is only one place to go get a Whopper.  Thus the overall market is competitive, i.e. many places 		to get a burger, but monopolistic in that there is only one seller of any particular 	  type of burger.</p>
@@ -150,7 +149,7 @@
 <!--BEGIN LECTURE 2-->    
 <div id="lecture2" class="tab-pane fade">
       <h2>Lecture 2</h2>
-	  <div class="banner"></div>
+	  <img src="img/jpeg.jpg" alt="Banner image for Columbia ECON module, featuring abstract blue and green shapes with the Columbia University logo" class="banner-img">
       <h3>Oligopoly</h3>
       <p>The characteristics of the oligopoly market are as follows:</p>
 	  <li>A few large supplier</li>
@@ -173,7 +172,7 @@
 <!--BEGIN LECTURE 3-->
 <div id="lecture3" class="tab-pane fade">
     <h2>Lecture 3</h2>
-	<div class="banner"></div>
+	<img src="img/jpeg.jpg" alt="Banner image for Columbia ECON module, featuring abstract blue and green shapes with the Columbia University logo" class="banner-img">
     <h3>Market Power</h3>
 	<p>As you can tell, consumers prefer the perfectly competitive or monopolistically competitive markets.  Firms, on the other hand, prefer the oligopolistic or monopoly structures.  This is because when there is good competition, we get more of the products at lower prices.  With less competition, we get fewer products and higher prices.</p>
     <p>This is because firms in less competitive industries can have market power.  A monopolist has the ultimate market power.  In a perfectly competitive industry, no firm has any market power.</p>
@@ -198,7 +197,7 @@
 <!--IMPORTANT: questions and answers can be edited in the file "js/slickQuiz-config-1.js"-->
 
 <div id="review" class="tab-pane fade">
-    <div class="banner"></div>
+    <img src="img/jpeg.jpg" alt="Banner image for Columbia ECON module, featuring abstract blue and green shapes with the Columbia University logo" class="banner-img">
 	<h2>Review</h2>
 	  <p><img src="img/cartoonpersondress.png" 
          alt="Cartoon illustration of a woman wearing a green outfit, standing and holding an open book in front of her." 
