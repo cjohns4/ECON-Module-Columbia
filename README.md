@@ -1,59 +1,247 @@
-# tabbed-module-template
-**CHANGE LOG**
+<html lang="en">
+<!--TABBED MODULE TEMPLATE-->
+<!--LAST EDITED 2/17/2017-->
 
-**4/26/17:**
+<head>
+<meta charset="utf-8">
+<title>Week 5 Instructional Materials</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	*Updated color of <a> tag to meet AA standards in 'colors.css'
+<!--Bootstrap CSS, FontAwesome CSS (http://fontawesome.io/icons/) tabbedmodule CSS-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<link href="css/slickQuiz.css" media="screen" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="css/tabbedmodule.css">
+<link rel="stylesheet" type="text/css" href="css/colors.css">
+<link rel="stylesheet" type="text/css" href="css/custom.css">
+<!--JQuery.min.js, Bootstrap.min.js, tabbedmodule.js, slickQuiz-config.js, etc.-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="js/tabbedmodule.js"></script>
+<script src="js/slickQuiz-config-1.js"></script>
+<script src="js/slickQuiz.js"></script>
+ <style>
+.banner {
+  width: 100%;
+  height: 120px; 
+  background-image: url('img/jpeg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 20px; 
+}
+  </style>	
+</head>
 
-**2/14/17: Valentines Day Update**
+<body id="top">
+<br>
+<div class="container" style="padding-bottom:50px; padding-top:20px">
 
-	*Created publisher_resources folder with Connect and WileyPlus template pages and associated images
-	
-	*Added animate.css - look it up and play with it, but don't go overboard
-	
-	*Attempted to fix bug where page doesn't return to top in Firefox on click of Next/Previous button
-	
-	*Added Proctor reminder alert to tabbed-module-2, simply delete if not needed
+<!--navigation tabs-->
+  <ul class="nav nav-tabs" id="mytabs">
+    <li class="active"><a data-toggle="tab" href="#overview">Overview</a></li>
+    <li><a data-toggle="tab" href="#activities">Activities</a></li>
 
-**12/19/16:**
+<!--begin dropdown lecture menu-->
+     <li class="dropdown">
+          <a href="#lecture" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Lecture <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+<!--Delete from 'begin dropdown lecture menu' to here to convert to normal tabs. -->
+<!--Add or delete lecture links as needed.-->
+<!--Ensure final lecture's 'next' button has the id "toreview".-->
+<!--Ensure the button from review back to lecture points to the right lecture using button ids (see tabbedmodule.css for reference)-->
+            <li><a data-toggle="tab" href="#lecture1">Lecture 1</a></li>
+            <li><a data-toggle="tab" href="#lecture2">Lecture 2</a></li>
+            <li><a data-toggle="tab" href="#lecture3">Lecture 3</a></li>
+            <li><a data-toggle="tab" href="#lecture4">Lecture 4</a></li>
+            <li><a data-toggle="tab" href="#lecture5">Lecture 5</a></li>
+            <li><a data-toggle="tab" href="#lecture6">Lecture 6</a></li>
+    	</ul></li>
+<!--end dropdown lecture menu-->        
+    <li><a data-toggle="tab" href="#review">Review</a></li>
+	</ul>
+<!--end navigation tabs-->
 
-	*Updated language in all slickQuiz-config files to be more standardized, easier to edit
+<!--begin page content-->
+<div class="tab-content" style="margin-top:15px">
 
-**12/7/16:**
+<!--BEGIN OVERVIEW-->
+<div id="overview" class="tab-pane fade in active">
+      <h1>Week 5: Monopolistic Competition/Oligopoly and Market Power</h1>
+	  <div class="banner"></div>
+      <h2>Understanding Market Structures and Consumer Behavior</h2>
+      <p>Last week, we delved into the world of relatively non-existent market structures. This week, we jump headlong into the two most prevalent market structures in modern economies: 	    monopolistic competition and oligopolies.</p>
+ 	  <p>These two structures have similarities and can be difficult to distinguish. One firm may sell various brands of a product, creating the illusion of choice while still capturing all   consumer spending.</p>
+ 	  <p>As we discussed, monopolies are not very consumer-friendly. Anytime there’s less competition, consumers are disadvantaged. To counter this, governments enact laws to reduce           monopoly power as industries consolidate.</p>
 
-	*Updated FontAwesome to v.4.7.0 for increased awesome
+      <br>
+      <div class="panel panel-default">
+      <div class="panel-heading"><h3>Weekly Objectives</h3></div>
+      <div class="panel-body">
+		  <img src="img/cartoonpersondress.png"
+           alt="A cartoon-style female teacher with glasses and a bun, dressed in a green blazer and cream blouse, smiles warmly while pointing to the left with her right hand. She 			   holds a brown book in her left arm and stands against a textured off-white background"
+           class="inline-right-image">
+      <ul>
+      <li>Identify key traits of monopolistic competition, including product differentiation and market entry conditions.</li>
+      <li>Compare and contrast oligopolistic market structures, focusing on firm behavior, pricing strategies, and barriers to entry.</li>
+      <li>Analyze factors that reduce market competition, such as mergers, acquisitions, and regulatory shifts.</li>
+	  <li>Assess the role of government in controlling monopoly power, including antitrust laws and public policy tools.</li>
+      <h4>Readings</h4>	 
+	  <p>Greenlaw, S. A. & Shapiro, D. (2018). <i>Principles of Microeconomics</i> (2nd edition).</p>
+      <p><a href="https://openstax.org/details/books/principles-microeconomics-2e">OpenStax: Principles of Microeconomics 2e</a></p>
+      <ul>
+	  <li>Chapters 10 & 11</li>
+	  </ul>
+      </div>
+      </div>
+	<style>
+    .inline-right-image {
+      float: right;
+      margin-left: 15px;
+      width: 130px;
+      height: auto;
+      object-fit: contain;
+    }
+  </style>
+<!--next/previous buttons-->
+<div style="clear:both"></div>
+<button type="button" id="overviewnext" class="btn btn-primary pull-right" onclick="location.href='#top'">Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></button>
+<div style="clear:both"></div>
+</div>
+<!--END OVERVIEW-->
 
-	*Updated SlickQuiz feedback language after quiz in config files
+<!--BEGIN ACTIVITIES-->
+<div id="activities" class="tab-pane fade">
+      <h2>Activities</h2>
+      <h3 class="activities"><i class="fa fa-book" aria-hidden="true"></i> Learning Resources</h3>
+      <ul>
+      <li>Chapter 10</li>
+	  <li>Chapter 11</li>
+      </ul>
 
-	*Added panel for Weekly Objectives on Overview tab
+      <h3 class="activities"><i class="fa fa-check-square-o" aria-hidden="true"></i> Required Activities</h3>
+      <ul>
+      <li>Discussion 5</li>
+      <li>Exercise 3</li>
+      </ul>
+      <p>&nbsp;</p>
+      <div class="alert alert-info fade in">
+  <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+  <p class="text-center">If you have questions regarding any of these activities, make sure to post those questions in the <strong>Open Forum</strong>.</p>
+	 </div>
+<!--next/previous buttons-->
+<div style="clear:both"></div>
+<button type="button" id="activitiesprev" class="btn btn-primary pull-left" onclick="location.href='#top'"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous</button>
+<button type="button" id="activitiesnext" class="btn btn-primary pull-right" onclick="location.href='#top'">Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></button>
+<div style="clear:both"></div>
+</div>
+<!--END ACTIVITIES-->
 
-	*Added section for Multimedia on Activities tab
+<!--LECTURE SECTIONS: IMPORTANT! DELETE THE TABS YOU DON'T USE OR THEY WILL PRINT JUNK CODE-->
+
+<!--BEGIN LECTURE 1-->
+<div id="lecture1" class="tab-pane fade">
+	  <h2>Lecture 1</h2>
+      <h3>Subheading [optional]</h3>
+      <p>Lorem ipsum dolor sit amet, ea luptatum assueverit pri, ex mollis epicuri accusata est. Eos tamquam delenit albucius ad, semper copiosae evertitur mei ad, ad vel harum efficiendi. Mea id nullam sanctus. Pri duis ferri ne. Harum tollit est et, simul ubique laboramus ne vel, iudico apeirian aliquando est et.</p>
+<!--next/previous buttons-->
+<div style="clear:both"></div>
+<button type="button" id="lecture1prev" class="btn btn-primary pull-left" onclick="location.href='#top'"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous</button>
+<button type="button" id="lecture1next" class="btn btn-primary pull-right" onclick="location.href='#top'">Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></button>
+<div style="clear:both"></div>
+</div>
+<!--END LECTURE 1-->
+
+<!--BEGIN LECTURE 2-->    
+<div id="lecture2" class="tab-pane fade">
+      <h2>Lecture 2</h2>
+      <h3>Subheading [optional]</h3>
+      <p>Lorem ipsum dolor sit amet, ea luptatum assueverit pri, ex mollis epicuri accusata est. Eos tamquam delenit albucius ad, semper copiosae evertitur mei ad, ad vel harum efficiendi. Mea id nullam sanctus. Pri duis ferri ne. Harum tollit est et, simul ubique laboramus ne vel, iudico apeirian aliquando est et.</p>
+<!--next/previous buttons-->
+<div style="clear:both"></div>
+<button type="button" id="lecture2prev" class="btn btn-primary pull-left" onclick="location.href='#top'"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous</button>
+<button type="button" id="lecture2next" class="btn btn-primary pull-right" onclick="location.href='#top'">Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></button>
+<div style="clear:both"></div>
+</div>
+<!--END LECTURE 2-->
+
+<!--BEGIN LECTURE 3-->
+<div id="lecture3" class="tab-pane fade">
+    <h2>Lecture 3</h2>
+    <h3>Subheading [optional]</h3>
+	<p>Lorem ipsum dolor sit amet, ea luptatum assueverit pri, ex mollis epicuri accusata est. Eos tamquam delenit albucius ad, semper copiosae evertitur mei ad, ad vel harum efficiendi. Mea id nullam sanctus. Pri duis ferri ne. Harum tollit est et, simul ubique laboramus ne vel, iudico apeirian aliquando est et.</p>
+<!--next/previous buttons-->
+<div style="clear:both"></div>
+<button type="button" id="lecture3prev" class="btn btn-primary pull-left" onclick="location.href='#top'"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous</button>
+<button type="button" id="lecture3next" class="btn btn-primary pull-right" onclick="location.href='#top'">Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></button>
+<div style="clear:both"></div>
+</div>
+<!--END LECTURE 3-->
+
+<!--BEGIN LECTURE 4-->
+<div id="lecture4" class="tab-pane fade">
+      <h2>Lecture 4</h2>
+      <h3>Subheading [optional]</h3>
+      <p>Lorem ipsum dolor sit amet, ea luptatum assueverit pri, ex mollis epicuri accusata est. Eos tamquam delenit albucius ad, semper copiosae evertitur mei ad, ad vel harum efficiendi. Mea id nullam sanctus. Pri duis ferri ne. Harum tollit est et, simul ubique laboramus ne vel, iudico apeirian aliquando est et.</p>
+<!--next/previous buttons-->
+<div style="clear:both"></div>
+<button type="button" id="lecture4prev" class="btn btn-primary pull-left" onclick="location.href='#top'"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous</button>
+<button type="button" id="lecture4next" class="btn btn-primary pull-right" onclick="location.href='#top'">Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></button>
+<div style="clear:both"></div>
+</div>
+<!--END LECTURE 4-->
+
+<!--BEGIN LECTURE 5-->
+<div id="lecture5" class="tab-pane fade">
+      <h2>Lecture 5</h2>
+      <h3>Subheading [optional]</h3>
+	  <p>Lorem ipsum dolor sit amet, ea luptatum assueverit pri, ex mollis epicuri accusata est. Eos tamquam delenit albucius ad, semper copiosae evertitur mei ad, ad vel harum efficiendi. Mea id nullam sanctus. Pri duis ferri ne. Harum tollit est et, simul ubique laboramus ne vel, iudico apeirian aliquando est et.</p>
+<!--next/previous buttons-->
+<div style="clear:both"></div>
+<button type="button" id="lecture5prev" class="btn btn-primary pull-left" onclick="location.href='#top'"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous</button>
+<button type="button" id="lecture5next" class="btn btn-primary pull-right" onclick="location.href='#top'">Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></button>
+<div style="clear:both"></div>
+</div>
+<!--END LECTURE 5-->
+
+<!--BEGIN LECTURE 6-->
+<div id="lecture6" class="tab-pane fade">
+      <h2>Lecture 6</h2>
+      <h3>Subheading [optional]</h3>
+      <p>Lorem ipsum dolor sit amet, ea luptatum assueverit pri, ex mollis epicuri accusata est. Eos tamquam delenit albucius ad, semper copiosae evertitur mei ad, ad vel harum efficiendi. Mea id nullam sanctus. Pri duis ferri ne. Harum tollit est et, simul ubique laboramus ne vel, iudico apeirian aliquando est et.</p>
+<!--next/previous buttons-->
+<div style="clear:both"></div>
+<button type="button" id="lecture6prev" class="btn btn-primary pull-left" onclick="location.href='#top'"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous</button>
+<!--"TOREVIEW" BUTTON-->
+<button type="button" id="toreview" class="btn btn-primary pull-right" onclick="location.href='#top'">Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></button>
+<div style="clear:both"></div>
+</div>
+<!--END LECTURE 6-->
+
+<!--BEGIN REVIEW-->
+<!--IMPORTANT: questions and answers can be edited in the file "js/slickQuiz-config-1.js"-->
+
+<div id="review" class="tab-pane fade">
+      <h2>Review</h2>
+      <h3>Subheading [optional]</h3>
+      <p>Lorem ipsum dolor sit amet, ea luptatum assueverit pri, ex mollis epicuri accusata est. Eos tamquam delenit albucius ad, semper copiosae evertitur mei ad, ad vel harum efficiendi. Mea id nullam sanctus. Pri duis ferri ne. Harum tollit est et, simul ubique laboramus ne vel, iudico apeirian aliquando est et.</p>
+      <p>&nbsp;</p>
+<!--next/previous buttons-->
+<div style="clear:both"></div>
+<!--ENSURE THIS BUTTON LINKS TO YOUR FINAL LECTURE PAGE-->
+<button type="button" id="lecture7prev" class="btn btn-primary pull-left" onclick="location.href='#top'"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous</button>
+<div style="clear:both"></div>
+</div>
+<!--END REVIEW-->  
+
+</div><!--DO NOT DELETE THIS TAG, IT CLOSES THE CONTAINER DIV!-->
+
+<!--FOOTER-->
+<div class="panel-footer navbar-fixed-bottom center-block text-center" style="width:100%; clear:both; background-color:#fafafa;">ECON 294: Microeconomics</div>
+</div>
+
+</body>
+
+</html>
 
 
-**9/20/16:**
-
-	*Updated colors.css to ensure accessibility of anchor text
-
-
-**9/2/16**
-
-	*Tabbed module template added to GitHub to manage updates
-
-
-**9/1/16:**
-
-	*Added css to tabbedmodule.css for tables
-
-	*Changed page titles to "Week x Instructional Materials" to match D2L naming convention
-
-	*Created colors.css which incorporate colors used on the CC website
-
-	*Modified heading structure for accessibility and color scheme
-
-	*Added class "activities" to modify H3 color on Activities tab
-
-	*Added JS code to accomodate up to 15 Lecture tab next/previous buttons
-
-	*Modified semantics of button id that leads to Review tab to #toreview
-
-	*Changed alert at bottom of Activites page to match naming convention in D2L, "Open Forum"
