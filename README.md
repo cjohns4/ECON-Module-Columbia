@@ -17,6 +17,8 @@
   margin-bottom: 20px; 
 }
   </style>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
 	<!--Bootstrap CSS, FontAwesome CSS (http://fontawesome.io/icons/) tabbedmodule CSS-->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
@@ -63,7 +65,7 @@
 
 <div class="tab-pane fade in active" id="overview">
 <!-- BEGIN OVERVIEW -->	
-  <h1>Week 5: Monopolistic Competition/Oligopoly and Market Power</h1>
+  <div class="animate__animated animate__bounce"><h1>Week 5: Monopolistic Competition/Oligopoly and Market Power</h1></div>
   <div class="banner"></div>
   <h3>Understanding Market Structures and Consumer Behavior</h3>
   <p>Last week, we delved into the world of relatively non-existent market structures. This week, we jump headlong into the two most prevalent market structures in modern economies: 	    monopolistic competition and oligopolies.</p>
