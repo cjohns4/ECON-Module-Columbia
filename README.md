@@ -175,8 +175,15 @@
 <!--BEGIN LECTURE 3-->
 <div id="lecture3" class="tab-pane fade">
     <h2>Lecture 3</h2>
-    <h3>Subheading [optional]</h3>
-	<p>Lorem ipsum dolor sit amet, ea luptatum assueverit pri, ex mollis epicuri accusata est. Eos tamquam delenit albucius ad, semper copiosae evertitur mei ad, ad vel harum efficiendi. Mea id nullam sanctus. Pri duis ferri ne. Harum tollit est et, simul ubique laboramus ne vel, iudico apeirian aliquando est et.</p>
+	<div class="banner"></div>
+    <h3>Market Power</h3>
+	<p>As you can tell, consumers prefer the perfectly competitive or monopolistically competitive markets.  Firms, on the other hand, prefer the oligopolistic or monopoly structures.  This is because when there is good competition, we get more of the products at lower prices.  With less competition, we get fewer products and higher prices.</p>
+    <p>This is because firms in less competitive industries can have market power.  A monopolist has the ultimate market power.  In a perfectly competitive industry, no firm has any market power.</p>
+	<p>In most situations, market power doesn’t just exist.  So, how do markets go from competitive to less competitive?  The main way is by mergers.  There are three types of mergers, horizontal, vertical, and conglomerate.  The type of merger that hinders competition and can create market power is the horizontal merger.  A horizontal merger is a merger between firms in the same industry selling similar goods.  An example of a horizontal would be if McDonalds and Burger King would merge.</p>
+    <p>In the late 1800s, many industries in the US were moving towards or had already turned into monopolies.  Seeing the societal harm to these large companies, anti-monopoly laws were enacted to break up monopolies and to prevent monopolies from forming.  The first, and most famous, act was the Sherman Antitrust Act of 1890.  Since that time, many other laws have been passed to try and limit monopolies.</p>
+    <p>In certain situations, some industries lead themselves to monopolistic behavior.  Those firms are called natural monopolies.  These occur when one firm can continually produce and sell more output at a lower average total cost then having two or more firms.  These firms are generally utility companies, such as electric companies.  To soften the negative impact of these monopolies, they are usually price regulated by a state regulatory board.</p>
+<h4>Mergers (MJM)</h4>	
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wlLdX0fs6hE?si=VrTqkQYbxk4LdUsc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>	
 <!--next/previous buttons-->
 <div style="clear:both"></div>
 <button type="button" id="lecture3prev" class="btn btn-primary pull-left" onclick="location.href='#top'"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous</button>
