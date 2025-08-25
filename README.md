@@ -183,8 +183,8 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wlLdX0fs6hE?si=VrTqkQYbxk4LdUsc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>	
 <!--next/previous buttons-->
 <div style="clear:both"></div>
-<button type="button" id="lecture3prev" class="btn btn-primary pull-left" onclick="location.href='#lecture2'"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous</button>
-<button type="button" id="lecture3next" class="btn btn-primary pull-right" onclick="location.href='#review'">Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></button>
+<button type="button" id="lecture3prev" class="btn btn-primary pull-left" onclick="location.href='#top'"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous</button>
+<button type="button" id="lecture3next" class="btn btn-primary pull-right" onclick="location.href='#top'">Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></button>
 <div style="clear:both"></div>
 </div>
 <!--END LECTURE 3-->
@@ -214,7 +214,7 @@
 <!--next/previous buttons-->
 <div style="clear:both"></div>
 <!--ENSURE THIS BUTTON LINKS TO YOUR FINAL LECTURE PAGE-->
-<button type="button" id="lecture7prev" class="btn btn-primary pull-left" onclick="location.href='#lecture3'"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous</button>
+<button type="button" id="lecture7prev" class="btn btn-primary pull-left" onclick="location.href='#top'"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous</button>
 <div style="clear:both"></div>
 </div>
 <!--END REVIEW-->  
