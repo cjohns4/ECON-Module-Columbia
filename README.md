@@ -98,6 +98,7 @@
 <a href="#activities" class="btn btn-primary pull-right" data-toggle="tab" role="tab" aria-label="Go to Activities tab">
   Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 </a>
+</div>
 <!-- END OVERVIEW -->
 
 <div class="tab-pane fade" id="activities">
