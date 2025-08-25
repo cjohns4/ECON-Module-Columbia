@@ -77,9 +77,10 @@
       <div class="panel panel-default">
       <div class="panel-heading"><h3>Weekly Objectives</h3></div>
       <div class="panel-body"><ul>
-      <li>Weekly Objective 1</li>
-      <li>Weekly Objective 2</li>
-      <li>Weekly Objective 3</li>
+      <li>Identify key traits of monopolistic competition, including product differentiation and market entry conditions.</li>
+      <li>Compare and contrast oligopolistic market structures, focusing on firm behavior, pricing strategies, and barriers to entry.</li>
+      <li>Analyze factors that reduce market competition, such as mergers, acquisitions, and regulatory shifts</li>
+	  <li>>Assess the role of government in controlling monopoly power, including antitrust laws and public policy tools.</li>
       </ul>
       </div>
       </div>
