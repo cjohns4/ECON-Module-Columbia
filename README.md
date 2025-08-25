@@ -152,8 +152,18 @@
 <!--BEGIN LECTURE 2-->    
 <div id="lecture2" class="tab-pane fade">
       <h2>Lecture 2</h2>
-      <h3>Subheading [optional]</h3>
-      <p>Lorem ipsum dolor sit amet, ea luptatum assueverit pri, ex mollis epicuri accusata est. Eos tamquam delenit albucius ad, semper copiosae evertitur mei ad, ad vel harum efficiendi. Mea id nullam sanctus. Pri duis ferri ne. Harum tollit est et, simul ubique laboramus ne vel, iudico apeirian aliquando est et.</p>
+	  <div class="banner"></div>
+      <h3>Oligopoly</h3>
+      <p>The characteristics of the oligopoly market are as follows:</p>
+	  <li>A few large supplier</li>
+	  <li>The product may be homogenous or heterogenous</li>
+	  <li>There are barriers to entry</li>
+ 	  <li>Firms have control over price, but there is mutual interdependence</li><br>
+	  <p>Thus, as you can see, oligopolistic markets differ from monopolistically 			competitive markets by the fact there are fewer companies to purchase the 			products from and that those firms can offer the same type of product.  			Further, due to the size of the firms, it is very difficult for new firms to 		enter the market.</p>
+	  <p>There are three basic oligopoly models.  One is kinked-demand theory.  This 		theory is based on the fact that when oligopolies compete, price increases 			are not matched by competitors, but if a firm does lower price to attract 			more customers, its competitors will match price.  Another is cartels and 			collusion.  A cartel is a situation where firms from an illegal alliance to 		keep output low and prices high.  The most famous cartel is OPEC, which is 			made up of various oil producing countries.  The final basic model is the 			price leadership model.  This occurs when there is one large firm that sets 		the price for the rest of the market.</p>
+      <p>As one can imagine, based on these models, oligopolies are neither 				allocative or productively efficient.</p>
+	<h4>Oligopoly (MJM)</h4>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/ElBF2D7IHAI?si=4fpqepR1LTsW1iCm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <!--next/previous buttons-->
 <div style="clear:both"></div>
 <button type="button" id="lecture2prev" class="btn btn-primary pull-left" onclick="location.href='#top'"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous</button>
