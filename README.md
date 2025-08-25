@@ -123,6 +123,7 @@
   <p class="text-center">
     If you have questions regarding any of these activities, make sure to post those questions in the <strong>Open Forum</strong>.
   </p>
+  </div>
 <!-- Previous Button -->
 <a href="#overview" class="btn btn-primary pull-left" data-toggle="tab" role="tab" aria-label="Go to Overview tab">
   Previous <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
