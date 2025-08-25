@@ -126,15 +126,12 @@
     If you have questions regarding any of these activities, make sure to post those questions in the <strong>Open Forum</strong>.
   </p>
   </div>
-<!-- Previous Button -->
-<a href="#overview" class="btn btn-primary pull-left" data-toggle="tab" role="tab" aria-label="Go to Overview tab">
-  Previous <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-</a>
-<!-- Next Button -->
-<a href="#lecture1" class="btn btn-primary pull-right" data-toggle="tab" role="tab" aria-label="Go to Lecture 1 tab">
-  Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-</a>
- <!--END ACTIVITIES-->
+<div style="clear:both"></div>
+<button type="button" id="activitiesprev" class="btn btn-primary pull-left" onclick="location.href='#overview'"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous</button>
+<button type="button" id="activitiesnext" class="btn btn-primary pull-right" onclick="location.href='#lecture1'">Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></button>
+<div style="clear:both"></div>
+</div>
+<!--END ACTIVITIES-->
 
 <!--LECTURE SECTIONS: IMPORTANT! DELETE THE TABS YOU DON'T USE OR THEY WILL PRINT JUNK CODE-->
 
