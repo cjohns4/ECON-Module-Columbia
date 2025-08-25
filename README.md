@@ -31,22 +31,7 @@
   margin-bottom: 20px; 
 }
   </style>
-    <style>
-    .jumping-text {
-      display: inline-block;
-      font-size: 2rem;
-      animation: jump 1s infinite ease-in-out;
-    }
-
-    @keyframes jump {
-      0%, 100% {
-        transform: translateY(0);
-      }
-      50% {
-        transform: translateY(-20px);
-      }
-    }
-  </style>
+    
 </head>
 
 <body id="top">
@@ -80,7 +65,7 @@
 
 <!--BEGIN OVERVIEW-->
 <div id="overview" class="tab-pane fade in active">
-      <h1 class="jumping-text">Week Five: Monopolistic Competition/Oligopoly and Market Power</h1>
+      <h1>Week Five: Monopolistic Competition/Oligopoly and Market Power</h1>
 	  <div class="banner"></div>
       <h2>Understanding Market Structures and Consumer Behavior</h2>
       <p>Last week, we delved into the world of relatively non-existent market structures. This week, we jump headlong into the two           most prevalent market structures in modern economies: monopolistic competition and oligopolies.</p>
