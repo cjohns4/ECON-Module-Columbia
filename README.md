@@ -203,7 +203,6 @@
 <a href="#review" class="btn btn-primary pull-right" data-toggle="tab" role="tab" aria-label="Go to Review tab">
   Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 </a>
-</div>
 <!--END LECTURE 3-->
 
 <!--BEGIN REVIEW-->
