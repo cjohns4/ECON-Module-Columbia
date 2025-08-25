@@ -248,7 +248,7 @@
   .inline-right-image {
     float: right;
     margin-left: 15px;
-    max-width: 130px;
+    max-width: 110px;
     height: auto;
     object-fit: contain;
   }
