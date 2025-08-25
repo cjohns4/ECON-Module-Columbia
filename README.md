@@ -104,7 +104,7 @@
 <!-- END OVERVIEW -->
 
 <!--BEGIN ACTIVITIES-->
-  <div id="activities" class="tab-pane fade">
+<div id="activities" class="tab-pane fade">
       <h2>Activities</h2>
       <h3 class="activities"><i class="fa fa-book" aria-hidden="true"></i> Learning Resources</h3>
       <ul>
