@@ -133,7 +133,6 @@
 <a href="#lecture2" class="btn btn-primary pull-right" data-toggle="tab" role="tab" aria-label="Go to Lecture 2 tab">
   Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 </a>
-</div>
  <!--END ACTIVITIES-->
 
 <!--LECTURE SECTIONS: IMPORTANT! DELETE THE TABS YOU DON'T USE OR THEY WILL PRINT JUNK CODE-->
