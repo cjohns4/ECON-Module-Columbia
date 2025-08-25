@@ -92,9 +92,7 @@
       <ul>
 	  <li>Chapters 10 & 11</li>
 	  </ul>
-      </div>
-      </div>
-	<style>
+    <style>
     .inline-right-image {
       float: right;
       margin-left: 15px;
