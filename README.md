@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <!--TABBED MODULE TEMPLATE-->
 <!--LAST EDITED 2/17/2017-->
@@ -21,6 +20,17 @@
 <script src="js/tabbedmodule.js"></script>
 <script src="js/slickQuiz-config-1.js"></script>
 <script src="js/slickQuiz.js"></script>
+ <style>
+.banner {
+  width: 100%;
+  height: 120px; 
+  background-image: url('img/jpeg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 20px; 
+}
+  </style>
 </head>
 
 <body id="top">
