@@ -79,7 +79,7 @@
       <div class="panel-heading"><h3>Weekly Objectives</h3></div>
       <div class="panel-body">
 		  <img src="img/cartoonpersondress.png"
-           alt="A cartoon-style female teacher with glasses and a bun, dressed in a green blazer and cream blouse, smiles warmly while pointing to the left with her right hand. She 			   holds a brown book in her left arm and stands against a textured off-white background"
+           alt="A cartoon-style female teacher with glasses and a bun, dressed in a green blazer and cream blouse, smiles warmly while pointing to the left with her right hand. She 			   holds a brown book in her left arm and 			stands against a textured off-white background"
            class="inline-right-image">
       <ul>
       <li>Identify key traits of monopolistic competition, including product differentiation and market entry conditions.</li>
@@ -92,6 +92,7 @@
       <ul>
 	  <li>Chapters 10 & 11</li>
 	  </ul>
+   </div>
     <style>
     .inline-right-image {
       float: right;
@@ -101,8 +102,7 @@
       object-fit: contain;
     }
   </style>
-  </div>
-<!--next/previous buttons-->
+  <!--next/previous buttons-->
 <div style="clear:both"></div>
 <button type="button" id="overviewnext" class="btn btn-primary pull-right" onclick="location.href='#top'">Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></button>
 <div style="clear:both"></div>
