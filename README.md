@@ -123,12 +123,10 @@
   <p class="text-center">
     If you have questions regarding any of these activities, make sure to post those questions in the <strong>Open Forum</strong>.
   </p>
-</div>
 <!-- Previous Button -->
 <a href="#overview" class="btn btn-primary pull-left" data-toggle="tab" role="tab" aria-label="Go to Overview tab">
   Previous <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
 </a>
-</div>
 <!-- Next Button -->
 <a href="#lecture2" class="btn btn-primary pull-right" data-toggle="tab" role="tab" aria-label="Go to Lecture 2 tab">
   Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
